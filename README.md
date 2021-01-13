@@ -1,7 +1,7 @@
 # HTML-CSS
 Les TP non RWD
 
-## :warning: NE PAS PUBLIER SUR LA BRANCHE MASTER :warning: :upside_down_face:
+### :warning: ne pas publier sur la branche master :warning: :upside_down_face:
 
 > créer une branche nommée avec votre **prénom** pour y mettre tout votre travail personnel.
 
