@@ -8,8 +8,8 @@ Les TP non RWD
 ```sh
 git clone [...]
 cd [...]
-git checkout -b prénom
+git checkout -b [prénom]
 git add *
 git commit -m 'first commit'
-git push -u origin prénom
+git push -u origin [prénom]
 ```
