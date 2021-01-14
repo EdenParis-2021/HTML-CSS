@@ -207,4 +207,11 @@ figcaption
     padding-left: 1em;
     margin-bottom: 20px;
 }
+.button input
+{
+    background-color:#65C1BE;
+    color:white;
+    padding:15px 30px 15px 30px;
+    border-radius: 10px;
+}
 
