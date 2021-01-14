@@ -1,0 +1,17 @@
+head{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+nav{
+    background-color: rgb(184, 184, 184);
+}
+.header-title{
+    font-size: 2em;
+}
+.color-header{
+    color: lightblue;
+}
+.header-float{
+    float: left;
+}

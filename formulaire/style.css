@@ -1,0 +1,38 @@
+body{
+    background-image: url('../img/sneaker_mesh_fabric/sneaker_mesh_fabric.png');
+}
+
+label{
+    display: inline-block;
+    margin-top: 1em;
+}
+
+form{
+    width: 40%;
+    margin: 0 auto;
+    background-color: hsla(333, 16%, 56%, 0.2);
+    padding: 1em;
+    border-radius: 1%;
+}
+input, select, textarea{
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+input[type=text],input[type=password],input[type=email], input[type=file], select, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.envoi{
+
+}
+.reset{
+
+}
+input[type=checkbox]{
+    /* width: 100%; */

@@ -1,0 +1,130 @@
+.yel{
+    text-align: center;
+    color: rgb(255, 166, 0);
+    font-family: 'Cormorant Garamond', serif;
+}
+.mid{
+    text-align: center;
+}
+.blk{
+    text-align: center;
+    text-decoration: none;
+}
+.clic{
+
+
+}
+.img1{
+    float: left;
+    margin-left: 100px;
+}
+.left{
+    text-align: right;
+    margin: auto;
+    float: left;
+    width: 40%;
+    padding-top: 200px;
+}
+.star{
+
+}
+.he{
+    margin-top: auto;
+}
+
+.lig{
+width: 650px;
+
+}
+
+
+.resto{
+    float: right;
+    width: 50%;
+}
+    
+.t1{
+    margin: auto;
+
+    width: 50%;
+    padding-top: 150px;
+}
+.resto2{
+    float: left;
+ text-align: end;
+    width: 50%;
+}
+    
+.t2{
+    margin: auto;
+
+    width: 43%;
+    padding-top: 150px;
+}
+
+.resto3{
+    float: right;
+    width: 50%;
+}
+
+.t3{
+    margin: auto;
+
+    width: 50%;
+    padding-top: 150px;
+}
+.resto4{
+    float: left;
+ text-align: end;
+    width: 50%;
+}
+    
+.t4{
+    margin: auto;
+
+    width: 43%;
+    padding-top: 150px;
+}
+
+
+.font{
+    text-align: center;
+}
+
+
+
+carte{
+    background-image: url("plan.png");
+    margin-left: 535px;
+    float: left;
+background-repeat: no-repeat;
+}
+.carte2{
+    margin-left: 861px;
+
+}
+.city{
+    padding-top: 42px;
+margin-block: -121px;
+margin-left: 899px;
+font-size: small;
+}
+.fin{
+    text-align: center;
+
+}
+.bac{
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+}
+.clear{
+    clear: both;
+    }
+    .clear1{
+        clear: both;
+        padding: 100px;
+        }
+    .clear2{
+        clear: both;
+        padding-top: 125px;
+        }

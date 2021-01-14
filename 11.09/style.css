@@ -1,0 +1,16 @@
+.imageFond {
+ background: #000 url(fond.jpg) no-repeat;
+ background-size: cover;
+ height: 500px;
+}
+.imageFond p{
+width: 75%;
+margin: 100px auto 200px auto;
+background: rgba(206, 255, 251 , 0.6 );
+padding: 20px;
+font-size: 120%;
+border-radius: 10px;
+}
+h3{
+    padding: 70px;
+}

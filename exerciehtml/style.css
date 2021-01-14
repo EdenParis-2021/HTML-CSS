@@ -1,0 +1,29 @@
+.titre {
+    font-size: 20px;
+    text-align: center;
+}
+
+.texte {
+    background-color: orange;
+}
+
+.blibli {
+    background-image: url("https://bibliotheques.paris.fr/ui/skins/VPCO/images/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img1{
+    left: 0mm;
+}
+
+.img2 {
+list-style: none;
+display: inline-block;
+border: 2px solid navy;
+margin: 10px;
+padding: 5px 10px;
+}
+.titre{
+    
+padding-bottom: 50px;
+}

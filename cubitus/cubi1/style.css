@@ -1,0 +1,24 @@
+
+  .l1{
+background-color: blueviolet;
+
+}
+
+.l2{
+background-color: green;
+
+}
+
+.clear{
+    clear: both;
+    
+    }
+.l1, .l2{
+height: 10em;
+width: 10em;
+border: 0.2em solid #000000;
+margin: 0.2em;
+border-radius: 20%;
+text-align: center;
+float: left;
+}

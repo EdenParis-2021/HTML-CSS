@@ -1,0 +1,16 @@
+
+.hover:hover {
+    transform: scale(1.25);
+    background-color: gray;
+    transition: 1s;
+}
+.tableau{
+    float: left;
+    height: 18em;
+}
+.carte{
+    padding-top: 10em;
+}
+.clear{
+    clear: both;
+}

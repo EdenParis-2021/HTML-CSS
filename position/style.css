@@ -1,0 +1,88 @@
+nav{
+    height: 100px;
+background-color: gray;
+position: fixed;
+width: 120em;
+}
+
+.header-border{
+    position:  absolute ;
+    border-radius: 100px 100px 100px 100px;
+    height: 80px;
+    right: 114em;
+    }
+
+.header-bord{
+  border-right: 2px solid black;
+}
+
+.hearder-text{
+  position: relative;
+  right: -6em;
+  list-style-type: none;
+padding-left: 15px;
+display: block ruby;  
+}
+
+#cercle{
+  height: 10em;
+  width: 10em;
+  margin: 0.2em;
+  display: inline-block;
+  text-align: center;
+  background-color:orangered;
+    border-radius: 80%;
+    top: 10em;
+    left: 90em;
+    position: relative;
+}
+
+.border-center{
+  border: 20px dotted green;
+  width: 60em;
+  right: 28em;
+  top: 26em;
+  position: absolute;
+  height: 30em;}
+
+.center-cat{
+  position: absolute;
+  right: 40em;
+  top: 43em;
+}
+
+.dog{
+  position: absolute;
+  top: 66em;
+  right: 29em;
+}
+
+.cercle{
+  height: 10em;
+  width: 10em;
+  margin: 0.2em;
+  display: inline-block;
+  text-align: center;
+  background-color:blue;
+    border-radius: 20px 50px 20px 0px;
+}
+
+#dm-cercle{
+
+}
+
+.pat-dog-black{
+right: -90px;
+color: black;
+position: fixed;
+top: 57px;
+right: 553px;
+}
+
+.pat-dog-red{
+  color: orangered;
+  position: absolute;
+  top: 60em;
+  right: 104em;
+  
+}

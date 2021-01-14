@@ -1,0 +1,27 @@
+.header-color{
+    color: yellow;
+}
+
+.header-text{
+    position: absolute;
+display: grid;
+padding-top: 3.8em;
+left: 29.5em;
+font-size: 1.5em;
+}
+.color-header-table{
+    background-color: #0a59a5;
+    padding: 0em 1em 5em 1em;
+    margin: 0 auto;
+}
+
+.header-img{
+    padding: 1em;
+}
+h1{
+    color: #0a59a5;
+    font-size: x-large;
+}
+tbody p {
+    display: grid;
+}
