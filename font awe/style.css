@@ -1,0 +1,20 @@
+body{
+    background-color: black ;
+}
+.fa-gamepad{
+    font-size: 25em;
+    color: blue;
+  
+}
+.fa-archway{
+    color:red;
+    font-size: 25em;
+}
+.fa-star{
+    color: gold;
+  font-size: 25em;
+}
+.fa-playstation{
+    color: darkgreen;
+    font-size: 25em;
+}

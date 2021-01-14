@@ -1,0 +1,54 @@
+.blue{
+    background-color: rgb(0, 225, 255);
+    border-radius:40% 0%;
+    
+    height:200px;
+    width:200px;
+    text-align: center;
+}
+.green{
+    background-color: green;
+    border-radius: 10% 20% 30% 40% ;
+    text-align: center;
+    width:200px;
+    height:200px;
+    
+}
+.green, .blue, .aquan, .rose, .red, .rose1{
+    margin: 5px;
+   float: left;
+   
+}
+.aquan{
+    background-color: rgb(0, 255, 234);
+    border-radius:50%;
+   
+    height:200px;
+    width:200px;
+    text-align: center;
+}
+.rose{
+    background-color: #E9967A;
+    border-radius:  30% 40% ;
+    text-align: center;
+    width:200px;
+    height:200px;
+  
+}
+
+.red{
+    margin-right:210px;
+    background-color: #ff0000;
+    border-radius:  30% 40% ;
+    text-align: center;
+    width:200px;
+    height:200px;
+}
+.rose1{
+    background-color: #E9967A;
+    border-radius:  30% 40% ;
+    text-align: center;
+    width:200px;
+    height:200px;
+    margin-right:200px;
+}

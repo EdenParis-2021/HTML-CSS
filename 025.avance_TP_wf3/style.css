@@ -1,0 +1,145 @@
+.liste img {
+
+    height: 100px;
+}
+
+.liste {
+    height: 199px;
+    display: flex;
+    background-image: url(img/images.png);
+    justify-content: center;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    font-weight: bolder;
+    margin: 25px;
+    font-family: sans-serif;
+}
+
+.fa-phone-square-alt {
+    font-size: 70px;
+    color: gold;
+    background-color: black;
+    height: 60px;
+}
+
+.telephone {
+    font-family: sans-serif;
+    display: flex;
+
+}
+
+.image {
+    background-size: 1334px;
+    box-shadow: inset 1100px 0 0 0 rgb(58 31 255 / 50%);
+    background-repeat: no-repeat;
+    background-image: url(img/classe.jpg);
+    height: 748px;
+    width: 1090px;
+}
+
+h1 {
+    font-size: 80px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.change {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 174px;
+    margin: auto;
+    width: 76%;
+}
+
+.fa-arrow-alt-circle-right {
+    background: black;
+    border-radius: 50%;
+    font-size: 65px;
+    color: yellow;
+    margin-top: 130px;
+}
+
+.image p {
+    margin: auto;
+    font-size: 24px;
+    color: white;
+    font-family: sans-serif;
+    width: 76%;
+}
+
+.blockjaune {
+    margin: auto;
+    width: 76%;
+    margin-top: 50px;
+}
+
+.jaune {
+    background-color: yellow;
+    height: 50px;
+    width: 330px;
+}
+
+.jaune p {
+    color: black;
+    text-align: center;
+    margin: auto;
+    padding-top: 16px;
+    width: 101%;
+}
+
+.gold {
+    height: 13px;
+    width: 330px;
+    background-color: gold;
+}
+
+.marge {
+    margin: auto;
+    width: 72%;
+}
+
+.map {
+    margin: auto;
+    width: 63%;
+}
+
+.reunion {
+    background-color: gold;
+    height: 141px;
+    width: 500px;
+    float: right;
+}
+
+.map p {
+    font-size: 23px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.bleu {
+    background-color: #9BD4F2;
+    height: 124px;
+    width: 500px;
+}
+
+.format {
+    background-color: gold;
+    height: 141px;
+    width: 500px;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-top: 35px;
+}
+
+.bleu p {
+    font-size: 22px;
+    text-align: initial;
+}

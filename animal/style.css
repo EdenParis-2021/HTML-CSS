@@ -1,0 +1,76 @@
+.chat{
+    background-color:#767577 ;
+    width: 1900px;
+    height: 121px;
+    position: fixed;
+}
+.chat li{
+    display: inline-block;
+    bottom: 75px;
+    position: relative;
+    left: 100px;
+}
+.chat img{
+    border: solid;
+    border-radius: 100px;
+    width: 100px;
+    position: relative;
+    top: 7px;
+    left: 9px;
+}
+.chat .fas {
+    content: "\f1b0";
+    position: fixed;
+    /* width: 50px; */
+    font-size: 100px;
+    /* position: relative; */
+    right: 700px;
+    top: 73px;
+}
+.rond{
+    background-color: orange;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    /* margin-top: 1px; */
+    top: 198px;
+    /* right: 5px; */
+    left: x;
+    left: 72%;
+}
+   
+ .pate .fas{
+    content: "\f1b0";
+    position: relative;
+    /* right: 10px; */
+    /* width: 50px; */
+    font-size: 100px;
+    /* position: relative; */
+    left: 27%;
+    color: blue;
+  
+  
+ }
+.cat img {
+    margin-top: 305px;
+    position: relative;
+    left: 42%;
+    border: dotted green 5px;
+    /* padding-left: 5px; */
+    padding-left: 252px;
+    padding-right: 238px;
+    padding-top: 91px;
+}
+.dog{
+    
+         /* right: -41%; */
+    position: relative;
+    /* left: 70%; */
+    margin-left: 72%;
+    }
+.bordur{
+    background-color: blue;
+    border: 5px;
+    height: 50px;
+}

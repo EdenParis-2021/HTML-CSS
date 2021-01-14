@@ -1,0 +1,63 @@
+table {
+ 
+   
+    border-collapse: collapse;
+    margin: auto;
+
+    }
+  
+    
+ .black{
+     background-color: black;
+ }
+ .grasmaron{
+     background-color: #312519;
+ }
+ .maron{
+     background-color: #423223;
+ }
+ .beige{
+background-color: #F7A77B;
+ }
+ .beigegras{
+     background-color: #FF9A63;
+ }
+ .vert{
+     background-color: #314819;
+ }
+ .vertclair{
+     background-color: #415624;
+ }
+ .vertlol{
+     background-color: #669B3B;
+ }
+ .beigeclair{
+     background-color: #FAE4B4;
+ }
+ .orangefance{
+     background-color: #683415;
+ }
+ .beigenormal{
+     background-color: #E4DEAC;
+ }
+ .jaune{
+     background-color:#FECD39 ;
+ }
+ .blancos{
+     background-color: #FFECCD;
+ }
+ .orange{
+     background-color: #89340E;
+ }
+ .maronclair{
+     background-color: #714726;
+ }
+ .vertfonce{
+     background-color: #28371A;
+ }
+ .maronlol{
+background-color: #8D532E;
+ }
+ .maronmdr{
+     background-color: #965F2F;
+ }

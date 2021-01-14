@@ -1,0 +1,198 @@
+.kiop img{
+    width:1900px;
+    height: 1000px;
+}
+header {
+    background-image: url(woddPlank.jpg);
+    width:100%;
+    height:1000px;
+
+}
+header h6 {
+    margin: 0;
+}
+.pink h6 {
+    
+    float: left;
+}
+nav{
+    float: right;
+    } 
+    p{
+        font-family: Caveat Brush;
+    }
+ 
+  #logo{
+      width:350px;
+      height:350px;
+      position: relative;
+ transform: scaleX(-1);
+      padding-bottom:250px;
+      margin: auto;
+      padding-top:150px;
+  }
+  i{
+
+      margin-top: 7vw;
+     
+
+      display: inline-block;
+      font-size: normal;
+      position: relative;
+    
+  }
+  i#noob{
+    
+      top:4vw;
+      left: -10vw;
+
+      width: 3.4em;
+      height:3.4em;
+      
+      transform: rotate(134deg);
+      border-right: 0.3em solid #E53F6F;
+      border-top: 0.3em solid #E53F6F;
+      
+    
+}
+  #logo div {
+      position: relative;
+     bottom:299px;
+      width: 0;
+      height:0;
+      border-top: 350px solid #E53F6F;
+      border-left: 350px solid transparent;
+      opacity: .83;
+      transform: scaleX(-1);
+  }
+li{
+ 
+   font-family: sans-serif;
+    list-style: none;
+     display: inline-block;
+      margin:10px;
+}
+.rose1{
+    border-top: 15px solid magenta;
+    margin: 0 auto;
+    width:5%;
+    
+}
+.rose{
+    
+    border-top: 15px solid magenta;
+    margin: 0 auto;
+    width:10%;
+}
+
+h1{
+   
+    font-size:50px;
+}
+.ecriture{
+       margin:50px;
+    font-weight: 700;
+    text-align: center;
+    float: left;
+    width:35%;
+}
+.image img{
+width:59%;
+transform: scaleX(-1);
+}
+#pp{
+    color: hotpink;
+}
+.soap img{
+    width:59%;
+    float: left;
+    }
+.text{
+    margin:50px;
+    font-weight: 700;
+    text-align: center;
+    font-size:15px;
+    float: left;
+    width:35%;
+}
+h2{
+    font-size:50px;
+}
+#kk{
+    color: hotpink;
+}
+h3{
+   
+    font-size:50px;
+}
+
+.moule img{
+    width:59%;
+   float: right;
+   
+    }
+    #popup{
+        height:300px;
+    }
+    .deco{
+        
+        margin:50px;
+     font-weight: 700;
+     text-align: center;
+     float: left;
+     width:35%;
+ }
+#ll{
+    color: hotpink;
+}
+.oeuf img{
+    width:100%;
+}
+
+h6{
+  
+    font-weight: 700;
+    text-align: center;
+ 
+    width:35%;
+    font-family: sans-serif;
+    font-size:60px;
+}
+
+span{
+    font-size:35px;
+    vertical-align: top;
+    display: inline-block;
+    text-decoration: underline;
+}
+.fin{
+    font-weight: 700;
+    text-align: center;
+ 
+    width:35%;
+    font-family: sans-serif;
+    
+
+}
+.numero{
+    font-weight: 700;
+    text-align: center;
+ 
+    width:35%;
+    font-family: sans-serif;
+}
+.fa-twitter{
+ color: hotpink;
+}
+.fab{
+    float: right;
+    color: hotpink;
+    margin:10px;
+} 
+.google{
+    position: relative;
+    bottom: 50px;
+}
+
+   
+   

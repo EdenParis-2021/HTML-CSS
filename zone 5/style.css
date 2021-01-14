@@ -1,0 +1,53 @@
+body{
+    border-style: solid;
+    border-color: black;
+}
+.jaune{
+    text-align: center;
+    background-color: gold;
+    height:250px;
+    width:1880px;
+    
+}
+p{
+    margin: 0 auto;
+}
+.orange{
+    text-align: center;
+    background-color: orange;
+    height:200px;
+    width:1880px;
+    
+}
+.marron{
+ 
+    background-color: brown;
+    height:35px;
+    width:1880px;
+    
+    color: brown;
+
+}
+.papa{
+  text-align: center;
+   padding: 80px;
+    margin-top:25px;
+}
+.zone1,.zone2{
+    
+    width:850px;
+    height:550px;
+    float: left;
+}
+.zone1{
+
+    background-color:gold;
+}
+.zone2{
+    
+    background-color: goldenrod;
+}
+
+.clear{
+    clear: both;
+}

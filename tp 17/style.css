@@ -1,0 +1,119 @@
+.bleu{
+    height: 910px;
+    width: 1900px;
+    background-color: #348A96;
+}
+.blockgris{
+    background-color: #4D4D4D;
+    height: 80px;
+    width: 500px;
+    position: relative;
+    /* left: 20px; */
+    top: 65px;
+    margin: auto;
+}
+.blockblanc{
+    background-color: #fff;
+    height: 410px;
+    top: 64px;
+    position: relative;
+    
+}
+.blockgris p{
+    margin: auto;
+    width: 90%;
+    /* top: 16px; */
+    position: relative;
+    top: 34px;
+    color: #929292;
+    font-family: sans-serif;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+    
+}
+#name{
+    border: transparent;
+    
+    margin: auto;
+    top: 62px;
+    margin-left: 2pc;
+    width: 450px;
+}
+hr{
+    margin: auto;
+    width: 422px;
+
+    /* width: 1%; */
+    /* display: flex; */
+    margin-left: 32px;
+}
+#firstname{
+    border: transparent;
+
+    margin: auto;
+    top: 30px;
+    margin-left: 2pc;
+    width: 450px;
+}    
+
+#email{
+    border: transparent;
+
+    margin: auto;
+   
+    margin-left: 2pc;
+    width: 450px;
+}
+.ho{
+    margin: auto;
+    width: 422px;
+    /* margin-top: 29px; */
+    /* width: 1%; */
+    /* display: flex; */
+    margin-left: 0px;
+   
+}
+#Website{
+    border: transparent;
+    position: relative;
+    margin: auto;
+    
+    margin-left: 2pc;
+    width: 450px;
+}
+.Web{
+
+}
+
+input{
+    padding-bottom: 15px;
+    padding-top: 30px;
+}
+label{
+    float: right;
+    position: relative;
+    bottom: 34px;
+    margin: auto;
+    width: 26%;
+}
+#check{
+    width: 135%;
+    margin: 18px;
+  
+}
+#envoi{
+    background-color: #2F7C87;
+    font-size: 23px;
+    color: aliceblue;
+    margin: auto;
+    /* display: flex; */
+    width: 66%;
+    height: 38px;
+    padding: 1px;
+    display: inline-block;
+    margin-left: 71px;
+}

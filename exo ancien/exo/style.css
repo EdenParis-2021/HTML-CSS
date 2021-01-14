@@ -1,0 +1,27 @@
+h1{
+    margin-left:45%;
+    margin-top:20%;
+    z-index:3;
+   position: absolute;
+
+}
+.blio {
+   width:100%;
+    
+ 
+    
+}
+.js {
+width:25%;
+display: inline-block;
+}
+
+.jssolo img{
+  height: 100%;
+  position: relative;
+  bottom:150px;
+  margin-left:150px;
+}
+h2{
+    text-align: center;
+}

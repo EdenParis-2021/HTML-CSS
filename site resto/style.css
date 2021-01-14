@@ -1,0 +1,243 @@
+/* REGLAGES GENERAUX */
+body{
+    font-family: 'Cormorant Garamond', serif;
+   
+}
+
+/* ajout d'une balise parent */
+section{
+    width: 70%;
+    margin: 0 auto;
+}
+.note{
+   font-size:50px;
+   
+}
+span{
+
+    color: ivory;
+    background-color: black;
+}
+.fas,.far{
+    font-size:25px;
+    
+}
+
+/* MENU DE NAVIGATION */
+.paris{
+    text-align: center;
+    color: darkgoldenrod;
+    margin-top:150px;
+    /* font-family: 'Cormorant Garamond', serif; */
+}
+.city{
+    width:650px;
+    margin:auto;  
+}
+h1{
+    /* font-family: 'Cormorant Garamond', serif; */
+   text-align: center;
+   font-size:80px;
+   font-weight: normal;
+   margin:5px;
+}
+.guide{
+    width:650px;
+    margin:auto;
+ }   
+li{
+    display: inline-block;
+  list-style-type: none;
+  /* font-family: 'Cormorant Garamond',serif; */ 
+}
+ul{
+    
+    font-weight: normal;
+    margin: 0 auto;
+    width:12%;
+}  
+
+/* HEADER */
+
+.plat{
+    /* margin: 0 auto; */
+    /* width:60%; */
+    margin-bottom:55px;
+    float: left;
+   
+}
+.plat img{
+    float: right;
+}
+.carot{
+    position: relative;
+   /* bottom:300px;
+   width:90%; */
+   float: right;
+}   
+#plt{
+  
+    
+}
+/* ajout */
+.plat, .repas{
+    width: 50%;
+}
+/* ajout */
+.repas p, .text p{
+    
+    text-align: right;
+}
+ .repas{
+    
+    float: left;
+    /* font-family: 'Cormorant Garamond',serif; */
+    margin-top: 250px;
+ }  
+ .text{
+    /* position: relative; */
+    /* bottom:300px; */
+    /* margin: 0 auto; */
+    /* width:33%; */
+    float: right;
+    /* font-family: 'Cormorant Garamond',serif; */
+    /* font-weight: 1000; */
+ }
+.resto{
+    /* position: relative; */
+  float: right;
+  /* margin: 0 auto; */
+  /* width:25%; */
+}
+.resto img{
+    float: right;
+    /* height:550px; */
+    /* width:700px; */
+    width: 100%;
+}
+.salle{
+   /* float: left;
+    font-size:25px; */
+   /* text-align: center; */
+   text-align: left;
+    padding: 3%;
+}
+/* ajout */
+.salle, .resto{
+    width: 47%;
+    float: left;
+}
+h2{
+  text-align: left;
+  font-size:45px;
+    /* font-weight: normal; */
+}
+.ligne{
+   width: 125%;
+   text-align: center;
+}
+.Ambiance{
+    font-size:25px;
+}
+.etoile{
+    float: right;
+    font-size: 23px;
+    /* ajout */
+    width: 40%;
+    padding: 3%;
+}
+
+.lettre div:first-of-type{
+    float: left;
+    width: 53%;
+}
+.lettre div:first-of-type img{
+    width: 100%;
+}
+.dressage{
+    float: left;
+    font-size: 23px;
+     width: 40%;
+    padding: 3%;
+   
+}
+.resto{
+    float: right;
+}
+#lol{
+    font-size:45px;
+}
+.dress{
+    font-size:25px;
+    width:60%;
+}
+.poisson{
+  margin-top:47%;
+  margin-left:70px;
+}
+.poisson img{  
+  
+    float: left;
+    height:850px;
+    width:800px;
+}
+
+.oignon{
+  
+    float: right;
+    font-size:25px;
+
+     width: 40%;
+  
+}
+#gto{
+
+    font-size:50px;
+}
+.logo{
+
+    margin-top:110%;
+    
+    text-align: center;
+}
+.logo img{
+    width:255px;
+   
+}
+h6{
+    position: relative;
+    bottom:220px;
+    font-size:35px;
+}
+#pop{
+    position: relative;
+    bottom:300px;
+    font-size:15px;
+}
+.fin,.monde{
+
+    width:650px;
+    margin:auto;  
+}
+.mordu{
+    text-align: center;
+    font-weight: 1000;
+}
+.lol{
+    margin: auto;
+    position: relative;
+    bottom:550px;
+    font-size:50px;
+    
+ }
+ .module{
+     margin-top:60%;
+     font-size:45px;
+ }
+ .monte{
+   
+    margin-bottom:550px;
+ }
+.clear{
+    clear: both;
+}

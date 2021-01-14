@@ -1,0 +1,26 @@
+a {
+ 
+    text-decoration: none;
+   background-color: palegoldenrod;
+    border: 2px solid navy;
+    padding: 5px 10px;
+  color: rgb(255, 0, 0);
+    margin:10px;
+    text-align: center;
+}
+li:focus{
+    background: yellow;
+    color: lime;
+  }
+a:hover {
+    background-color: orangered;
+   padding:5px;
+}
+
+
+
+li {
+    display: inline-block;
+  text-align: center;
+    list-style:none;
+}

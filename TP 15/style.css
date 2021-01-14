@@ -1,0 +1,202 @@
+.block1{
+   
+    background-color: orange;
+    width: 100%;
+    height:500px ;
+    margin-top: 100px;
+    
+}
+.block1 img{
+    width: 155px;
+    margin: auto;
+    /* width: 1%; */
+    /* display: block; */
+    /* display: inline-block; */
+    display: block;
+    width: 140px;
+    margin: auto;
+    display: block;
+    position: relative;
+    bottom: 78px;
+}
+ul{
+    list-style: none;
+      text-align: center;
+}
+ li{
+     font-family: Comic Neue;
+     font-size: 25px;
+   margin: 20px;
+     display: inline-block;
+    color: rgb(255, 255, 255);
+}
+h1{
+    font-family: Comic Neue;
+    text-align: center;
+    font-size: 59px;
+    padding-top: 35px;
+    text-transform: uppercase;
+}
+
+  .text{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Baloo Chettan 2;
+    width: 76%;
+    font-size: 25px;
+  }
+  .blockgris{
+    background-color: #E9E9E9;
+    width: 60%;
+    height: 1200px;
+    display: inline-block;
+    margin: 60px;
+    text-align: center;
+    font-size: 1.4em;
+  }
+  .blockorange{
+    background-color: orange;
+    width: 28%;
+    height: 1000px;
+    margin: 54px;
+    float: right;
+    text-align: center;
+  }
+  h2{
+    font-size: 59px;
+    text-transform: uppercase;
+    font-family: Comic Neue;
+  }
+  span{
+      color: #F6A443;
+  }
+  .icon{
+    width: 67%;
+    margin: auto;
+    display: flex;
+
+  }
+  .far{
+    margin-top: 27px;
+    color: orange;
+  }
+ .lol{
+  bottom: 78px;
+  width: 35%;
+  margin: auto;
+  display: flex;
+  float: right;
+  position: relative;
+ }
+ .chien img{
+  width: 24%;
+  float: left;
+  border-radius: 21%;
+ }
+ .chien{
+  margin: auto;
+    width: 94%;
+ }
+
+.chien p{
+  display: block;
+  /* margin: 0 auto; */
+  text-align: center;
+  font-family: Baloo Chettan 2;
+  width: 41%;
+  font-size: 20px;
+  line-height: 29px;
+}
+.licorne img{
+  width: 45%;
+  border: 50%;
+  border-radius: 22%;
+  float: left;
+ }
+.licorne{
+  width: 49%;
+  border-radius: 43%;
+  position: relative;
+  bottom: 690px;
+  float: right;
+}
+.licorne p{
+  display: block;
+  /* margin: 0 auto; */
+  text-align: center;
+  font-family: Baloo Chettan 2;
+  width: 69%;
+  font-size: 20px;
+  line-height: 24px;
+}
+.black{
+  background-color: #333333;
+  height: 74px;
+  width: 300px;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 16px; */
+  margin-left: 97px;
+}
+.blanc{
+  background-color: #333333;
+  height: 74px;
+  width: 300px;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 16px; */
+  margin-left: 43px;
+  
+}
+.blanc h3{
+  color: rgb(255, 255, 255);
+  font-weight: 100;
+}
+.black p{
+  color: rgb(255, 255, 255);
+  margin: 22px;
+}
+span{
+  color: black;
+}
+h4{
+  font-size: 2.5em;
+  display: inline-block;
+  color: lightgoldenrodyellow;
+  text-align: left;
+  /* margin: auto; */
+  width: 73%;
+  /* padding: 20px; */
+  margin-top: 59px;
+  font-family: 'Comic Neue';
+  
+}
+.blockorange .far{
+  color: black;
+font-size: 47px;
+}
+.masque{
+  display: flex;
+  margin: auto;
+  width: 71%;
+}
+.masque p{
+  font-size: 1.8em;
+}
+.noir{
+  height:300px;
+  width: 100%;
+  background-color: #333333;
+  text-align: center;
+  color: aliceblue;
+}
+.noir img{
+  display: block;
+    margin: auto;
+    padding-top: 60px;
+}

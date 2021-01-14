@@ -1,0 +1,22 @@
+.imageFond{
+ background: #000 url(one-piece-tokyo-tower.jpg) no-repeat;
+ background-size: cover;
+ height:900px;
+  border-radius:200px;
+}
+.imageFond:hover{
+   opacity:.8;
+}
+.imageFond p{
+    width:75%;
+    margin: 100px auto 200px auto;
+    background: rgba(0, 4, 255, 0.6);
+    padding:20px;
+    font-size:120%;
+    border-radius: 10px;
+
+}
+h3{
+    padding:50px;
+    background: rgb(255, 0, 0);
+}

@@ -1,0 +1,13 @@
+div {
+    width:150px;
+    height:150px;
+    background-color: red;
+}
+
+section {
+    height:150px;
+    width:150px;
+    background-color: chartreuse;
+    padding:150px;
+ border: solid 50px black;
+}

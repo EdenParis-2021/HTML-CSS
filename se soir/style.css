@@ -1,0 +1,42 @@
+body{
+    font-family: 'Caveat Brush', cursive;
+    
+    
+}
+.wold img{
+width:1900px;
+height:1000px;
+}
+.asperge{
+    float: left;
+    width:50%;
+}
+.asperge img{
+    
+    height:700px;
+    
+}
+h2{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 75px;
+    margin-top:250px;
+    font-weight: 700;
+}
+.back{
+    background-color: orchid;
+    width:80px;
+    height:25px;
+    
+}
+.ecrit{
+    
+    float: left;
+    text-align: center;
+  
+}
+.parent{
+ width:65%;
+ height:35%;
+ float: left;
+}

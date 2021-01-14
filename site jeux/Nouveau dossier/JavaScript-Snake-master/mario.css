@@ -1,0 +1,31 @@
+body {
+   background-color: black;
+  }
+  img{
+ width:150px;   
+    height:150px;
+}
+h1{
+    
+    text-align: center;
+    color: red;
+    font-size:50px;
+}
+h2{
+    text-align: center;
+    color: red;
+}
+h3{
+    text-align: center;
+    color: red;
+}
+.prin{
+    text-align: center;
+    color: red;
+}
+.noob{
+    height: 500px;
+    width: 650px;
+    margin-left:595px;
+    margin-top:30px;
+}

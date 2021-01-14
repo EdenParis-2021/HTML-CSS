@@ -1,0 +1,22 @@
+table{
+    margin: auto;
+    border: solid 1px;
+}
+p{
+
+    /* width: 20%; */
+    /* margin: 19px; */
+    padding: 38px;
+    text-align: center;
+}
+.derrie{
+    margin: auto;
+    width: 35%;
+    padding: 37px;
+}
+.ligne{
+    margin: auto;
+    
+    /* margin: 19px; */
+    padding: 38px;
+}

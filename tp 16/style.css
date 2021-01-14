@@ -1,0 +1,40 @@
+fieldset {
+    width: 70%;
+    display: grid;
+    background-color: #E4DCDF;
+    border: solid whitesmoke;
+    position: relative;
+    bottom: 6px;
+    margin: auto;
+}
+#codepostal{
+    padding: 10px;
+}
+#Photo{
+    border: solid 1px whitesmoke;
+    padding: 21px;
+}
+#coment{
+    padding: 40px;
+}
+#envoi{
+    background-color: #3B8937;
+    font-size: 35px;
+    color: aliceblue;
+}
+#anul{
+    background-color: red;
+    font-size: 35px;
+    color: aliceblue;
+}
+#msg{
+    padding: 57px;
+}
+body {
+    color:black;
+    background-color:white;
+    background-image:url(60629281-résumé-tête-numérique-du-site-web-technologie-de-bannière-fond.jpg);
+    }
+    #pseudo{
+        padding: 10px;
+    }
