@@ -1,0 +1,29 @@
+
+table
+{
+    margin: 0 auto;
+}
+thead
+{
+    text-align: center;
+    background-color:#025DAC;
+}
+tbody
+{
+    background-color: #FFFDF6;
+}
+h1
+{
+    color:white;
+    letter-spacing: .3rem;
+}
+h2
+{
+    color:blue;
+    letter-spacing: .1rem;
+}
+span
+{
+    color:yellow;
+}
+

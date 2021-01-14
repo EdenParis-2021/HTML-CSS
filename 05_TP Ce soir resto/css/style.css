@@ -1,0 +1,275 @@
+body
+{
+    margin:0;
+    background-color: #a0c5b6 ;
+}
+.container 
+{
+    width:70%;
+    margin:0 auto;
+    background-color: white;
+}
+header
+{
+    position: relative;
+    background-image: url(../img/woddPlank.jpg);
+    height:650px;
+}
+header img 
+{
+    width:15%;
+    position: relative;
+    left:565px;
+    top: 100px;
+}
+.title
+{
+    text-align: left;
+    height:100px;
+    width:40%;
+    margin: 0 auto;
+    font-family: 'Caveat Brush', cursive; 
+    float:left;
+}
+.title span
+{
+    text-decoration: underline;
+    
+    
+}
+.pink
+{
+    width:55px;
+    height:11px;
+    background-color: magenta;
+    margin-top: 10px;
+    margin-left: 110px;
+}
+.pinkstory
+{
+    width:55px;
+    height:9px;
+    background-color: magenta;
+    margin-top: 10px;
+    margin-left: 210px;
+
+}
+.pinkfare
+{
+    width:45px;
+    height:9px;
+    background-color: magenta;
+    margin-top: 10px;
+    margin-left: 175px;
+}
+.pinklocal
+{
+    width:45px;
+    height:9px;
+    background-color: magenta;
+    margin-top: 10px;
+    margin-left: 210px;
+}
+.pinktriangle
+{
+    width:0;
+    height:0;
+    border-top: 197px solid magenta;
+    border-left:250px solid transparent;
+    margin-left: 520px;
+    margin-top: -100px;
+}
+.arrow {
+    width:40px;
+    height:40px;
+    border: solid magenta;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 635px;
+    margin-top: 160px;
+  }
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+ul
+{
+    text-align: center;
+}
+a 
+{
+    text-decoration: none;
+    color: #000;
+}
+
+ul, li
+{
+    display:inline-block;
+}
+li
+{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 50px;
+}
+h1
+{
+    font-size: 50px;
+    margin: 0;
+    padding-left: 60px;
+}
+nav 
+{
+    text-align:right;
+    float:right;
+}
+.clear
+{
+ clear:both;
+}
+.globastory
+{
+    height: 600px;
+    width:100%;
+}
+.storytxt
+{
+    padding-top: 150px;
+    width: 35%;
+    height: 450px;
+    vertical-align:middle;
+    float:left;
+    background-image: url(../img/pattern.jpg);
+}
+.story
+{
+    width: 65%;
+    height: 600px;
+    float:left;
+}
+.story img 
+{
+    height: 600px;
+    width:100%;
+    float: left;
+}
+.p1
+{
+    margin: 0 ;
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.storytxt, .story
+{
+    display:inline-block;
+}
+h2 
+{
+    text-align: center;
+    
+}
+.globafare 
+{
+    height: 600px;
+    width:100%;
+}
+.fresh 
+{
+    width: 100%;
+    height:150px;
+    
+}
+.fresh img 
+{
+    width:60%;
+    height:150px;
+    margin-left: 70px;
+    
+}
+.fare 
+{
+    width: 70%;
+    height: 600px;
+    float:left;
+}
+.fare img 
+{
+    height: 600px;
+    width:100%;
+    float: left;
+    
+}
+.faretxt
+{
+    padding-top: 80px;
+    width: 30%;
+    height: 520px;
+    vertical-align:middle;
+    float:left;
+    background-image: url(../img/pattern.jpg);
+}
+.faretxt, .fare
+{
+    display:inline-block;
+}
+.p2
+{
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.globalocal
+{
+    height: 600px;
+    width:100%;
+}
+.localtxt
+{
+    padding-top: 50px;
+    width: 35%;
+    height: 550px;
+    vertical-align:middle;
+    float:left;
+    background-image: url(../img/pattern.jpg);
+}
+.local
+{
+    width: 100%;
+    height:200px;
+}
+.local img 
+{
+    width:60%;
+    height:250px;
+    margin-left: 95px;
+}
+
+.eggs
+{
+    height:800px;
+    width:100%;
+}
+.eggs img 
+{
+    height:800px;
+    width:100%;
+}
+.globacontact 
+{
+    height: 200px;
+    width:100%;
+    background-image: url(../img/pattern.jpg);
+}
+.contacttxt
+{
+    width: 30%;
+    vertical-align:middle;
+}
+
+.p4
+{
+    padding-left:60px;
+}

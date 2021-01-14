@@ -1,0 +1,18 @@
+table
+{
+    margin: 0 auto;
+    border: 1px black solid;
+}
+
+
+p
+{
+    text-align:center;
+    padding: 40px;
+}
+.logo 
+{
+    margin: 0 auto;
+    width:34%;
+}
+

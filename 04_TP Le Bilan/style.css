@@ -1,0 +1,367 @@
+
+body
+{
+    width:54%;
+    margin:0 auto;
+    font-family: 'Cormorant Garamond', serif;
+}
+.guide
+{
+    height:20px;
+    width:100%;
+    text-align: center;
+}
+.title
+{
+    text-align: center;
+    height:100px;
+    width:60%;
+    margin: 0 auto;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+}
+.guide p
+{
+    margin: 0;
+}
+header
+{
+    padding-top: 100px;
+}
+ul
+{
+    text-align: center;
+}
+
+ul, li
+{
+    display:inline-block;
+}
+li
+{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+}
+h1
+{
+    font-size: 80px;
+    margin: 0;
+}
+nav
+{
+    text-align: center;
+}
+.globassiette
+{
+    margin-top: 50px;
+    height: 600px;
+}
+.assiette
+{
+    width: 55%;
+    height: 600px;
+    float:left;
+}
+.assiette img
+{
+ height: 600px;
+ width: 600px;
+ float: right;
+}
+.descassiette
+{
+    padding-top: 220px;
+    width: 25%;
+    height: 300px;
+    vertical-align:middle;
+}
+.p1
+{
+    margin: 0 ;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: right;
+}
+.p2
+{
+    margin: 0 ;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+.descassiette hr
+{
+    margin-top: 0px;
+    size: 1.5 ;
+    color: black ;
+    width: 425px;
+    position: relative; 
+    right:170px; 
+}
+.descassiette, .assiette 
+{
+    display:inline-block;
+}
+.clear
+{
+    clear: both;
+}
+
+
+.globasalle
+{
+    margin-top: 50px;
+    height: 500px;
+}
+.salle 
+{
+    width: 50%;
+    height: 500px;
+    float:right;
+}
+.salle img 
+{
+    height: 500px;
+    width: 100%;
+}
+.descasalle
+{
+    padding-top: 150px;
+    height: 300px;
+    vertical-align:middle;
+    width: 40%;
+}
+.descasalle h2
+{
+    font-size: 40px;
+    margin: 0;
+    text-align: left;
+}
+.p3
+{
+    margin: 0 ;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+}
+.descasalle hr
+{
+    margin-top: 0px;
+    size: 1.6 ;
+    color: black ;
+    width: 450px;
+    position: relative; 
+}
+.descasalle, .salle
+{
+    display:inline-block;
+}
+.globaservice
+{
+    height: 500px;
+}
+.service
+{
+    width: 50%;
+    height: 500px;
+    float:left;
+}
+.service img
+{
+    height: 500px;
+    width: 100%;
+}
+.descaservice 
+{
+    float:left;
+    padding-top: 150px;
+    padding-left: 20px;
+    width: 25%;
+    height: 300px;
+    vertical-align:middle;
+    width: 40%;
+}
+.descaservice h2
+{
+    font-size: 40px;
+    margin: 0;
+    text-align: left;
+}
+.p4
+{
+    margin: 0 ;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+}
+.descaservice hr
+{
+    margin-top: 0px;
+    size: 1.6 ;
+    color: black ;
+    width: 450px;
+    position: relative; 
+}
+.descaservice, .service
+{
+    display:inline-block;
+}
+.globadressage 
+{
+    height: 500px;
+}
+.dressage 
+{
+    width: 50%;
+    height: 500px;
+    float:right;
+}
+.dressage img 
+{
+    height: 500px;
+    width: 100%;
+}
+.descadressage 
+{
+    float:left;
+    padding-top: 150px;
+    height: 300px;
+    vertical-align:middle;
+    width: 40%;
+}
+.descadressage h2
+{
+    font-size: 40px;
+    margin: 0;
+    text-align: left;
+}
+.p5
+{
+    margin: 0 ;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+}
+.descadressage hr
+{
+    margin-top: 0px;
+    size: 1.6 ;
+    color: black ;
+    width: 450px;
+    position: relative; 
+}
+.descadressage, .dressage
+{
+    display:inline-block;
+}
+.globagout 
+{
+    height: 500px;
+}
+.gout 
+{
+    width: 50%;
+    height: 500px;
+    float:left;
+}
+.gout img 
+{
+    height: 500px;
+    width: 100%;
+}
+.descagout 
+{
+    float:left;
+    padding-top: 150px;
+    padding-left: 20px;
+    height: 300px;
+    vertical-align:middle;
+    width: 40%;
+}
+.descagout h2
+{
+    font-size: 40px;
+    margin: 0;
+    text-align: left;
+}
+.p6
+{
+    margin: 0 ;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+}
+.descagout hr
+{
+    margin-top: 0px;
+    size: 1.6 ;
+    color: black ;
+    width: 450px;
+    position: relative
+}
+.descagout, .gout
+{
+    display:inline-block;
+}
+.paris
+{
+    width: 100%;
+    height: 235px;
+}
+.paris img 
+{
+    display:block;
+    padding-top: 60px;
+    height: 155px;
+    width: 200px;
+    margin: 0 auto;
+    padding-bottom:20px;
+}
+.p7
+{
+    margin: 0 auto;
+    font-size: 25px;
+    font-weight:bolder;
+    color:black;
+    text-align: center; 
+    position: relative;
+    bottom:110px;
+}
+.p8
+{
+    margin-top: 5px ;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.p9
+{
+    margin-top: 10px ;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+}
+.p11
+{
+    width:190px;
+    background-color: black;
+    color:#fff;
+}
+.fa-star
+{
+    color:#fff;   
+    width:5px;
+    margin:7px; 
+}
+.fa-star-half-alt
+{
+    color:#fff;   
+    width:5px;
+    margin:7px;
+}

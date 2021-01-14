@@ -1,0 +1,345 @@
+body
+ {
+    background-color: rgb(65, 60, 60);
+    margin:0;
+ }
+
+
+.hcolor
+{
+    background-color: #F9F9F9;
+}
+
+header
+{
+    width:70%;
+   /* background-color: blue; */
+    height:300px;
+    margin:0 auto;
+}
+.vl{
+    padding: 4px;
+    position: absolute;
+    height: 292px;
+    left: 285px;
+    background: linear-gradient(#F9F9F9, orange);
+}
+.head1
+{
+    width: 50%;
+   /* background-color: pink; */
+    height:300px;
+}
+
+.head2
+{
+    width:50%;
+   /* background-color:green;*/
+    height:300px;
+}
+
+#align
+{
+    display:flex;
+    flex-wrap:nowrap;
+}
+
+.head1 img
+{
+    width:500px;
+    height:115px;
+    padding-top: 100px;
+}
+
+span
+{
+    color:#EA9F05;
+    padding-left:5px;
+}
+
+.head1 img, .head1 h2
+{
+    display:flex;
+    padding-left: 40px;
+}
+
+.ul1
+{
+    margin-top: 40px;
+    height:100px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+.li1, .li2
+{
+    display: inline-block;
+    
+}
+
+.li1
+{
+    width:160px;
+    padding-left: 20px;
+    padding-right: 50px;
+    
+}
+
+.li1 img
+{
+    width:53px;
+    height:75px;
+    padding-top: 10px;
+}
+.li1 p 
+{
+    padding-left: 20px;
+    
+}
+
+.li2
+{
+    width:220px;
+    padding-left: 90px;
+}
+
+.li2 img
+{
+    width:80px;
+    height:80px;
+    padding-top: 5px;
+}
+
+li a p
+{
+    display:inline-block;
+    margin: 0 auto;
+    position: relative;
+    bottom: 30px;
+}
+
+li a 
+{
+    text-decoration: none;
+
+}
+.julien
+{
+    margin:0px;
+    font-size: 25px;
+    text-align: right;
+    padding-right: 20px;
+}
+.ul2
+{
+    padding-top: 60px;
+    padding-left: 0px;
+}
+.li3, .li4, .li5
+{
+    padding-left: 20px;
+    padding-right:20px;
+    padding-bottom: 10px;
+    display: inline-block;
+    font-size: 25px;
+    
+}
+.li3
+{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.li5
+{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+section
+{
+    background-color: black;
+    
+}
+.banner
+{
+ width:70%;
+ margin:0 auto;
+ padding-top: 20px;
+ 
+}
+.banner img
+{
+    width:100%;
+    box-shadow: 0px 10px 5px grey;
+}
+.grey
+{
+    background-color: #F9F9F9;
+    width:70%;
+    margin :  0 auto;
+}
+.gloves1, .gloves2, .gloves3, .gloves4
+{
+    display:inline-block;
+    padding-left: 197px;
+}
+.gloves1 p, .gloves2 p, .gloves3 p, .gloves4 p
+{
+    text-align: center;
+    position: relative;
+    z-index: 5;
+    bottom:50px;
+}
+.gloves1 img, .gloves2 img, .gloves3 img, .gloves4 img
+{
+    box-shadow:   0 0 1em black;
+}
+.gloves1
+{
+   float: left;
+}
+.gloves1, .gloves2
+{
+    padding-top: 50px;
+}
+.gloves3, .gloves4
+{
+    padding-top: 100px;
+    padding-bottom: 180px;
+}
+.clear
+{
+    clear:both;
+}
+.vente button
+{
+    background-color: black;
+    color:white;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 40px;
+    font-size: 1rem;
+    text-align: center;
+    position: relative;
+    left:15px;
+    bottom:25px; 
+}
+.vente, .prix
+{
+    display: inline-block;
+}
+.vente
+{
+    width:50%;
+    
+}
+.prix
+{
+    float: right;
+    width:50%;
+}
+.prix p
+{
+    text-align: left;
+    text-decoration-line: line-through;
+    margin:0 auto;
+    position: relative;
+    bottom:25px;
+    width:50%;
+    text-align: center;
+    font-size: 20px;
+}
+.prix h2
+{
+    margin:0 auto;
+    width:50%;
+    float:right;
+    text-align: center;
+    position: relative;
+    bottom: 25px;
+    color:#EA9F05;
+    font-size: 35px;
+}
+.prix p, .prix h2
+{
+    display: inline-block;
+}
+.vp{
+    padding: 1px;
+    
+    background: linear-gradient(to right, #F9F9F9, black);
+}
+.bar 
+{
+    position: relative;
+    bottom:130px;
+    background-color: rgb(65, 60, 60);
+    height:30px;
+    width:100%;
+}
+footer
+{
+    background-color: rgb(65, 60, 60);
+    position: relative;
+    bottom:100px;
+}
+.bottomnav
+{
+    margin:0 auto;
+ background-color: #fff;
+ width:33%;
+ position: relative;
+  z-index: 1;
+  bottom:30px;
+  border-radius: 10px;
+}
+
+.ul3
+{
+    margin:0 auto;
+    padding:20px;
+    
+}
+.li6, .li7, .li8, .li9
+{
+    display: inline-block;
+    padding-left: 45px;
+    padding-right:20px;
+    padding-bottom: 10px;
+}
+
+.box0
+{
+    display:flex;
+    justify-content:space-around;
+    width:50%;
+    margin: 0 auto;
+    padding:90px;
+}
+.box0 p 
+{
+    text-align: center;
+    color:white;
+}
+.box0 img 
+{
+    padding-left: 90px;
+}
+.icons0
+{
+    display:flex;
+    justify-content:space-around;
+    width:50%;
+    margin: 0 auto;
+}
+.bottext
+{
+    padding-top: 20px;
+    width:50%;
+    margin: 0 auto;
+}
+.bottext p
+{
+    text-align: center;
+    color:white;
+}
