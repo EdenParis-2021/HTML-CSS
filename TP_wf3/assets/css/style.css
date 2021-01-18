@@ -1,0 +1,383 @@
+/*global*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h2, h3, figure, figcaption{
+    margin: 0;
+}
+
+/*Header*/
+header{
+    height: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("../img/zig-zag-white-transparent-transparent.png");
+    background-repeat: repeat;
+    background-size: 5%;
+    text-transform: uppercase;
+}
+/*topbar1*/
+.topbar1{
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+}
+/*topbar2*/
+.topbar2{
+    width: 50%;
+
+}
+.topbar2 nav{
+    height: 180px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.topbar2 ul{
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.topbar2 ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.topbar2 ul li a:hover{
+    color: #589baa;
+}
+
+/*topbar3*/
+.topbar3{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-phone-alt{
+    font-size: 30px;
+    background-color: #ffe600;
+    color: black;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+}
+
+.topbar3 .phonenumber{
+    display: flex;
+    flex-direction: row;
+}
+.topbar3 .phonenumber div{
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.phonenumber div p{
+    margin: 0px;
+    font-weight: bold;
+    font-size: 21px;
+    letter-spacing: 2px;
+}
+
+.phonenumber div p:first-child{
+    font-weight: 400;
+    font-size: 17px;
+}
+
+/*main blocks*/
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.block1smaller{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block2smaller{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 8em auto;
+}
+/* block 1 */
+
+
+.block1smaller > section:nth-child(1){
+    width: 60%;
+}
+
+.block1smaller > section:nth-child(2){
+    width: 39%;
+}
+
+.block1smaller section:nth-child(1) .block1-text{
+    background-image: url(../img/classe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block1-text > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 150px;
+    background-color: rgba(29, 28, 78, 0.7);
+}
+
+.block1-text h3{
+    font-size: 65px;
+    color: #fff;
+}
+
+.block1-text p{
+    font-size: 20px;
+    color: #fff;
+}
+
+.block1-text input{
+    background-color: #ffe600;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 6px solid #ad9e16;
+    box-shadow: 0px 4px 20px;
+    width: 50%;
+    height: 50px;
+    outline: none;
+}
+
+.fa-chevron-right{
+    font-size: 25px;
+    color: black;
+}
+
+.block1-text > div > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe600;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: relative;
+    left: 375px;
+    bottom: 125px;
+}
+
+.block1smaller > section:nth-child(2){
+    display: flex;
+}
+
+.block1-left-side{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.block1-right-side{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.block1-left-side section:nth-child(1){
+    background-color: #ffe600;
+    padding: 25px;
+}
+
+.block1-left-side section:nth-child(1) p{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.block1-left-side section:nth-child(2){
+    background-color: #66cccc;
+    text-transform: uppercase;
+    flex-direction: row;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.block1-left-side section:nth-child(2) > p{
+    color: white;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.block1-left-side section:nth-child(2) > div p{
+    margin: 0;
+}
+
+
+.block1-left-side section:nth-child(2) > div{
+    display: flex;
+}
+
+.block1-left-side section:nth-child(2) > div input{
+    width: 125px;
+    height: 22px;
+    font-size: 12px;
+    color: white;
+    background-color: black;
+    outline: none;
+    border: none;
+    margin-left: 12px;
+}
+
+.block1-left-side iframe{
+    width: 100%;
+    height: 17em;
+}
+
+.block1-left-side section:nth-child(4) h3{
+    font-size: 32px;
+}
+
+.block1-left-side section:nth-child(4){
+    height: 8.7em;
+    display: flex;
+    align-items: flex-end;
+}
+
+.block1-right-side > div{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.fa-facebook-square{
+    font-size: 64px;
+    color: #3b5998;
+}
+
+.fa-twitter-square{
+    font-size: 64px;
+    color: #44a5ee;
+}
+
+.fa-linkedin{
+    font-size: 64px;
+    color: #2c7cb6;
+}
+
+.block1-right-side > div p{
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    text-align: right;
+}
+/* cookies bar */
+#cookies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-top: 1px solid black;
+    height: 90px;
+    position: fixed;
+    z-index: 4;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+}
+
+#cookies p{
+    margin: 6px 10px;
+}
+
+#cookies-button{
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* block2 */
+
+.top-block2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.top-block2 figure{
+    width: calc(100%/8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-block2 figure img{
+    height: 89px;
+}
+
+.top-block2 figcaption{
+    border-top: 3px solid #66cccc;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.top-block2 figure:not(#fullopacity){
+    opacity: 50%;
+}
+
+.bottom-block2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 6em;
+}
+
+.bottom-block2 .bb2-leftside{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bottom-block2 .bb2-rightside{
+    width: 70%;
+}
+
+.bb2-leftside img{
+    width: 80%;
+}
+
+.bb2-rightside h3{
+    font-size: 55px;
+}
+
+.bb2-rightside p{
+    font-size: 23px;
+}
+
+
+
+
+
+
