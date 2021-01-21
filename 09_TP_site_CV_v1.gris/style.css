@@ -1,0 +1,288 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin:0;
+}
+header
+{
+    background-color: lightgray;
+    border-bottom: black 1px solid;
+}
+#mainheader
+{
+    width:75%;
+    margin:0 auto;
+}
+#maintitle, #share
+{
+    display:inline-block;
+}
+#share
+{
+    float: right;
+    width:10%;
+}
+
+h1
+{
+    text-align: center;
+    font-family: Roboto, sans-serif ;
+    font-weight: 700;
+}
+#maintitle h2
+{
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+header span
+{
+    color:skyblue;
+}
+#share p
+{
+    text-align: right;
+}
+nav
+{
+    width: 42%;
+    margin: 0 auto;
+}
+nav ul
+{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin:0;
+    padding:0;
+}
+nav li a
+{
+    text-decoration: none;
+    color:black;
+}
+nav li
+{
+    padding:20px 50px 20px 50px;
+}
+section
+{
+    width:75%;
+    margin:0 auto;
+    display:flex;
+}
+#secleft
+{
+    width:69%;
+    margin: 0 auto;
+}
+#secright
+{
+    width:30%;
+    margin:0 auto;
+
+}
+#secright, #secleft
+{
+    float: left;
+}
+#pres h2
+{
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    color:skyblue;
+}
+#imgpres p
+{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    float: right;
+    width:90%;
+}
+#actuellement
+{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    width:80%;
+    margin-bottom: 30px;
+}
+.arrow
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.arrow p
+{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    float:right;
+    width:96%;
+    margin:0 auto;
+}
+#camembert
+{
+    margin-top: 20px;
+}
+#camembert img
+{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+#actu
+{
+    margin-bottom: 50px;
+}
+#actu h2
+{
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    color:skyblue;
+}
+#actu p
+{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+}
+.bloc
+{
+
+    margin-top: 30px;
+    margin-left: 28px;
+    margin-right: 26px;
+    border-radius: 20px;
+}
+.bloc2
+{
+    background-color: lightgray;
+    border-radius: 20px 20px 0% 0%;
+    border: 1px black solid;
+
+}
+h4
+{
+    margin:1px auto;
+    text-align: center;
+    font-size: 20px;
+}
+.bloc3
+{
+    width:100%;
+    border: 1px black solid;
+    border-radius: 0% 0% 20px 20px;
+}
+.bloc3 p
+{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    width:75%;
+    padding:10px;
+}
+#experience p
+{
+    padding:0;
+}
+#experience ul
+{
+    padding-top: 5px;
+}
+footer
+{
+    background-color: lightgray;
+    width:100%;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+footer ul
+{
+    display:flex;
+    justify-content: space-evenly;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    color:skyblue;
+    width:20%;
+    list-style-type: none;
+
+}
+footer a
+{
+    text-decoration: none;
+    color:skyblue;
+}
+footer p
+{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+
+main h2
+{
+    display:flex;
+    justify-content: center;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    color:skyblue;
+}
+#mainpart
+{
+    display:flex;
+    justify-content: center;
+    height:32em;
+}
+#leftpart, #rightpart
+{
+    display:flex;
+    justify-content: center;
+    width:30%;
+}
+#leftpart
+{
+    display: flex;
+    flex-direction: column;
+}
+form
+{
+    width: 80%;
+}
+form div
+{
+    display:flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+form input
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+form label
+{
+    margin-top: 20px;
+}
+div > input[value="envoi"]
+{
+    margin-top: 20px;
+    width:10%;
+    padding:0;
+}
+#rightpart img
+{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:90%;
+}
+.clear
+{
+    clear: both;
+}
