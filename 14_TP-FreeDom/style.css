@@ -1,0 +1,49 @@
+body
+{
+    margin:0 auto;
+    font-family: Roboto, sans-serif;
+}
+.main
+{
+    margin: auto;
+    width:45%;
+    padding-top: 200px;
+}
+table {
+
+    background-color: white;
+    transition: transform 1.5s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    float: left;
+}
+table
+{
+    border:0;
+}
+table:first-of-type tr:first-of-type td:first-of-type
+{
+    padding-top: 38px;
+    border:0;
+}
+thead td
+{
+    background-color: lightgray;
+    color:white;
+}
+
+td
+{
+    padding: 20px;
+    text-align: center;
+}
+table:not(.tb1):hover{
+    background-color: lightgray;
+
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+table:hover thead td{
+    background-color: black;
+}
+
