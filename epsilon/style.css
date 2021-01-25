@@ -50,7 +50,7 @@ header span{
 }
 
 .but4{
-    width: 10em;
+    width: 12em;
     height: 3em;
     border: 2px solid black;
     border-radius: 3px;
@@ -170,7 +170,6 @@ h6{
     font-size: 25px;
     font-weight: 100;
     margin-left: 10em;
-    margin: 0;
 }
 .address-box{
     display: flex;
@@ -195,6 +194,7 @@ h6{
 }
 input{
     height: 35px;
+    background-color: white;
 }
 .t3{
     width: 50%;
@@ -252,7 +252,6 @@ i + p{
     justify-content: center;
 }
 #hr{
-    height: 0px;
     width: 6em;
     border: 1px solid black;
     position: relative;
@@ -261,8 +260,9 @@ i + p{
 .io{
     margin-right: 20px;
 }
-.icon{
+.icon {
     margin-top: 6em;
+}
 .span-h3{
 display: grid;
 }
