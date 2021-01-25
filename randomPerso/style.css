@@ -1,0 +1,284 @@
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+	font-family: "Montserrat", sans-serif;
+	
+}
+.intro
+{
+	text-align: center;
+    padding: 0;
+    color: white;
+    background: url(img/reinerdrip.jpg) fixed;
+    height: 50em;
+}
+
+header
+{
+	text-align: center;
+    padding:30px;
+    width: 100%;
+    position: fixed;
+	z-index: 1;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin:0 auto;
+}
+li a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-decoration: none;
+	padding: 8px 10px;
+	margin:0px 50px;
+    color: #FFF;
+}
+li a:hover
+{
+	border-top:white 1px solid;
+}
+#billetbut
+{
+	background-color: #1C5F81;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0em;
+}
+#billetbut:hover
+{
+	background-color: #fff;
+	color:#1C5F81;
+	border:#1C5F81 solid 1px;
+}
+.fas, .fa-ticket-alt
+{
+	padding-right:7px;
+	transform: rotate(-45deg);
+}
+.logo {
+	margin-top: 10em;
+    width: auto;
+    height: auto;
+    padding: 6em;
+}
+
+.bandeau
+{
+	margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 50em;
+}
+.main
+{
+	margin:0 auto;
+	margin-top: 60px;
+	text-align: center;
+	margin-bottom: 60px;
+	height: 50em;
+}
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  background-size: cover;
+  
+}
+.stopfade { 
+   opacity: .5;
+}
+
+#polina { 
+  font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+  font-weight:100; 
+  background: rgba(0,0,0,0.3);
+  color: white;
+  
+  
+  
+  float: right;
+  font-size: 1.2rem;
+}
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: .3rem;
+}
+#polina button { 
+  display: block;
+  width: 80%;
+  
+  border: none; 
+   
+  font-size: 1.3rem;
+  background: rgba(255,255,255,0.23);
+  color: #fff;
+  border-radius: 3px; 
+  cursor: pointer;
+  transition: .3s background;
+}
+#polina button:hover { 
+   background: rgba(0,0,0,0.5);
+}
+
+a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  background:rgba(0,0,0,0.5);
+  padding: .5rem;
+  transition: .6s background; 
+}
+a:hover{
+  background:rgba(0,0,0,0.9);
+}
+@media screen and (max-width: 500px) { 
+  div{width:70%;} 
+}
+@media screen and (max-device-width: 800px) {
+  html { background: url(https://thenewcode.com/assets/images/polina.jpg) #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
+}
+h1
+{
+	margin-left:auto;
+	margin-right: auto;
+	width:35%;
+	font-weight: bold;
+	font-size: 45px;
+}
+.img-hover-zoom {
+    
+    overflow: hidden;
+}
+
+.img-hover-zoom  {
+    transition: transform 2.5s ease;
+}
+
+.img-hover-zoom:hover {
+    transform: rotate(360deg) scale(1.2);
+}
+.textarea
+{
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+	width:40%;
+	text-align: left;
+}
+.textarea p 
+{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	
+}
+.bold
+{
+	font-weight: 700;
+}
+.ita
+{
+	font-style: italic;
+}
+.textBig 
+{
+	text-align: center;
+	font-weight: 600;
+	font-size:25px;
+}
+ #reserver
+ {
+	background-color: #1C5F81;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+	
+	margin-left:auto;
+	margin-right: auto;
+	display: block;
+	width:25%;
+ }
+ #reserver:hover, #acheter:hover
+ {
+	 background-color: #fff;
+	 color:#1C5F81;
+	 border:#1C5F81 solid 1px;
+ }
+ #bottomMain
+ {
+	display:flex;
+    justify-content: center;
+ }
+ #leftpart, #rightpart
+{
+    
+    width:30%;
+}
+.far, .fa-credit-card
+{
+	
+}
+h2
+{
+	display: inline-block;
+	font-size: 30px;
+}
+#acheter
+{
+	background-color: #1C5F81;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+	display: block;
+	width:45%;
+}
+#tarif
+{
+	padding-bottom: 80px;
+	border-bottom:1px solid grey;
+	width:85%;
+}
+#L-bot-part
+{
+	padding-top: 60px;
+}
+#leftpart p 
+{
+	line-height: 25px;
+}
+.fa-bus
+{
+	transform: rotate(0deg);
+	padding:none;
+}
+#rightpart img 
+{
+	width:20px;
+
+}
+#rightpart p
+{
+	line-height: 25px;
+}
