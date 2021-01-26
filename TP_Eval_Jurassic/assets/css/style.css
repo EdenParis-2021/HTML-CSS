@@ -28,6 +28,14 @@ h3{
     font-size: 2.5rem;
 }
 
+span.bold{
+    font-weight: bold;
+}
+
+span.italic{
+    font-style: italic;
+}
+
 /* nav */
 
 nav{
@@ -126,7 +134,10 @@ header section{
     display: none;
     font-size: 2rem;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background: linear-gradient(90deg, rgba(0,36,15,1) 11%, rgba(11,131,4,1) 55%, rgba(191,177,13,1) 83%);
+    height: 10vh;
+    color: #FFFFFF;
+    align-items: center;
 }
 
 .entree:hover .afficher{
@@ -187,6 +198,10 @@ header section{
     width: 75%;
     flex-direction: column;
     margin: 0 auto;
+}
+
+.smaller-s2-b2 p > img{
+    width: 20px;
 }
 
 .smaller-s2-b2 iframe{
@@ -258,6 +273,10 @@ footer section:nth-child(2) img{
     border: none;
     text-transform: uppercase;
     font-size: 1.5rem;
+}
+
+.button:hover{
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 
