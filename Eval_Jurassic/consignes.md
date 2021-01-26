@@ -34,24 +34,22 @@
      - fontawesome pour les icones
 - COULEUR(S)
      - bleu pour les boutons : #1C5F81
-     - noir et blanc pour le reste
-
+     - noir et blanc pour le 
 ## 5- Animations
 - sur la barre de navigation :
      - au survol chaque lien a une bordure blanche (#fff)
-
 - au survol de tous les boutons (y inclus BILLETERIE dans la nav) le bouton a un fond blanc et le texte est bleu (#1C5F81)
 
-- sur la photo "entree.png" un petit effet de zoom à réaliser au survol de la souris
+-sur la photo "entree.png" un petit effet de zoom à réaliser au survol de la souris
 
 ## 6- Les bonus
-- si vous avez le temps  **uniquement** :
+- i vous avez le temps  **uniquement** :
      - **bonus n°1** : sur la photo "entrée.png" ajouter une légende visible au survol de la souris (balises figure et figcaption à utiliser)
 
-     - **bonus n°2** : au clic dans la nav chaque lien a une bordure verte (#8DAE4F ou en rgb(141, 174, 79) ... à vous de voir si vous ajoutez une opacité ou non)
+    - **bonus n°2** : au clic dans la nav chaque lien a une bordure verte (#8DAE4F ou en rgb(141, 174, 79) ... à vous de voir si vous ajoutez une opacité ou non)
           - regardez :focus
 
-     - **bonus n°3** : les bordures ne s'affichent que sur le haut du lien choisi
+    - **bonus n°3** : les bordures ne s'affichent que sur le haut du lien choisi
 
 ## ALLEZ, ON RESPIRE BIEN UNE FOIS ...
-## ... & BON COURAGE A CHACUN !
+

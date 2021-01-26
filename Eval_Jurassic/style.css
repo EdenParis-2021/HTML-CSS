@@ -11,7 +11,7 @@ body {
     text-align: center;
     padding: 0;
     color: white;
-    background: url("https://cdn.glitch.com/cd6f23a7-fb01-431a-a50e-42b23106e4f5%2Fdinosaure.jpg?v=1575277868862") no-repeat center fixed;
+    background: url("img/dinosaure.jpg") no-repeat center fixed;
     background-size: cover;
 }
 
@@ -156,3 +156,4 @@ table {
 
 
 }
+
