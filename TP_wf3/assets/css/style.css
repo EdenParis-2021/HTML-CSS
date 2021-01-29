@@ -4,15 +4,20 @@
 }
 
 html{
-    font-size: 14px;
+    font-size: 16px;
 }
 
 body{
     font-family: 'Roboto', sans-serif;
 }
 
-h2, h3, figure, figcaption{
+p, a, ul, label, input{
+    font-size: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6, figure, figcaption{
     margin: 0;
+    font-size: 2rem;
 }
 
 /*main blocks*/
@@ -84,6 +89,11 @@ footer{
     display: flex;
     justify-content: flex-end;
 }
+
+.topbar1 img{
+    object-fit: contain;
+    width: 75%;
+}
 /*topbar2*/
 .topbar2{
     width: 50%;
@@ -108,7 +118,6 @@ footer{
 .topbar2 ul li a{
     text-decoration: none;
     color: black;
-    font-size: 21px;
     font-weight: 500;
 }
 
@@ -149,13 +158,11 @@ footer{
 .phonenumber div p{
     margin: 0px;
     font-weight: bold;
-    font-size: 21px;
     letter-spacing: 2px;
 }
 
 .phonenumber div p:first-child{
     font-weight: 400;
-    font-size: 17px;
 }
 
 /* block 1 */
@@ -185,12 +192,10 @@ footer{
 }
 
 .block1-text h3{
-    font-size: 65px;
     color: #fff;
 }
 
 .block1-text p{
-    font-size: 20px;
     color: #fff;
 }
 
@@ -248,7 +253,6 @@ footer{
 
 .block1-left-side section:nth-child(1) p{
     text-transform: uppercase;
-    font-size: 18px;
     font-weight: bold;
     text-align: center;
 }
@@ -279,7 +283,6 @@ footer{
 .block1-left-side section:nth-child(2) > div input{
     width: 125px;
     height: 22px;
-    font-size: 12px;
     color: white;
     background-color: black;
     outline: none;
@@ -293,7 +296,6 @@ footer{
 }
 
 .block1-left-side section:nth-child(4) h3{
-    font-size: 32px;
 }
 
 .block1-left-side section:nth-child(4){
@@ -384,7 +386,6 @@ footer{
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
-    font-size: 14px;
 }
 
 .top-block2 figure:not(#fullopacity){
@@ -412,14 +413,7 @@ footer{
 
 .bb2-leftside img{
     width: 80%;
-}
-
-.bb2-rightside h3{
-    font-size: 55px;
-}
-
-.bb2-rightside p{
-    font-size: 23px;
+    object-fit: contain;
 }
 
 #more{
@@ -466,7 +460,6 @@ footer{
 
 .idf p{
     margin: 3px;
-    font-size: 1.3rem;
     color: white;
     text-align: center;
 }
@@ -510,18 +503,15 @@ footer{
 }
 
 .block4topleft h4{
-    font-size: 1.5rem;
     margin-bottom: 0;
 }
 
 .block4topright p:nth-child(1){
     color: #66cccc;
-    font-size: 1.7rem;
     margin-top: 0;
 }
 
 .block4topright h4{
-    font-size: 1.5rem;
     margin-bottom: 0;
 }
 
@@ -550,7 +540,6 @@ footer{
 }
 
 .block4bottom h4{
-    font-size: 1.3rem;
     line-height: 1.6rem;
     margin-bottom: 2px;
     margin-top: 10px;
@@ -578,7 +567,6 @@ footer{
 
 .block5 div h3{
     color: #4a5766;
-    font-size: 3rem;
 }
 
 .block5 > div:nth-child(2){
@@ -639,14 +627,12 @@ footer{
 .footlist h4{
     color: #FFFFFF;
     text-transform: uppercase;
-    font-size: 2rem;
     margin: 0.5em 0;
 }
 
 .footlist a{
     color: #66cccc;
     text-decoration: none;
-    font-size: 1.5rem;
 }
 
 .footlist li{
@@ -666,14 +652,12 @@ footer{
 }
 
 .blueblockfoot h3{
-    font-size: 2.2rem;
     text-transform: uppercase;
     text-align: center;
     margin: 0.5em 0;
 }
 
 .blueblockfoot p{
-    font-size: 1.5rem;
     line-height: 45px;
     text-align: center;
 }
@@ -735,7 +719,6 @@ footer{
     text-decoration: none;
     color: white;
     text-transform: uppercase;
-    font-size: 1.2rem;
 }   
 
 .footerbottom{
@@ -744,7 +727,7 @@ footer{
 
 .background{
     background-image: url(../img/zig-zag-white-transparent-transparent.png);
-    background-size: 4%;
+    background-size: 10%;
 }
 
 

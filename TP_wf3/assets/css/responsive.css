@@ -1,8 +1,24 @@
 
 @media screen and (min-width: 576px){
-    a, p, h2, h3, h4{
-        font-size: 1rem;
+    html{
+        font-size: 10px;
     }
+}
+
+@media screen and (min-width: 767.98px){
+    html{
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    html{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1399.98px){
+
 }
 
 

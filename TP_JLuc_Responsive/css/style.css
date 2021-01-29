@@ -1,0 +1,134 @@
+body{
+    background-color: #CECDCE;
+    font-family: 'Noto Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+p, li, a, input{
+    font-size: 0.9rem;
+}
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+}
+
+h2, h3, h4, h5, h6{
+    font-size: 2rem;
+}
+
+.uppcase{
+    text-transform: uppercase;
+}
+/* global */
+
+.topheader{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#globdiv{
+    width: 60%;
+    background-color: white;
+    margin: 40px auto;
+    border-radius: 30px;
+}
+
+
+#banderouge{
+    background-color: #C63A3D;
+    color: white;
+    display: flex;
+}
+
+#banderouge > div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    margin-top: -9em;
+}
+#banderouge > div:nth-child(3){
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* topheader */
+
+.greyblock{
+    background-color: #BEBEBE;
+    width: 25%;
+}
+
+.divh1{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*botheader*/
+
+#banderouge > div:nth-child(2) img{
+    max-width: 70%;
+    object-fit: contain;
+    width: 70%;
+}
+
+.empty{
+    width: 5%;
+}
+
+/*mediaqueries*/
+
+@media screen and (max-width: 575.98px){
+    .greyblock{
+        display: none;
+    }
+    .divh1{
+        width: 100%;
+        background-color: #BEBEBE;
+    }
+    #banderouge{
+        flex-direction: column;
+    }
+
+    #banderouge > div:nth-child(2){
+        margin-top: 0;
+    }
+
+    #banderouge > div{
+        width: 100%;
+    }
+
+    .empty{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767.98px){
+    html{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 991.98px){
+    html{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1199.98px){
+    html{
+        font-size: 14px;
+    }
+}
+
