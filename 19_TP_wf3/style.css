@@ -1,7 +1,101 @@
-.header{
-
-}
 
 .header-img{
-
+ width: 20%;
+ float: left
 }
+.header{
+background-image: url("img/images.png");
+ display:flow-root;
+}
+
+.menu a{
+ font-weight: bold;
+ text-decoration: none;
+ text-transform: uppercase;
+ text-decoration: none;
+ padding: 0 10px;
+ color: black;
+}
+
+
+.menu {
+ float: left;
+ padding-top: 3em;
+ padding-left: 8em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
