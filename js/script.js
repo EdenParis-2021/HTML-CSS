@@ -1,4 +1,3 @@
-
 var age = prompt ("votre age ?");
 if(age = " "){
     alert("vous n'avez pas répondu.");
@@ -501,39 +500,4 @@ do{ var numberlogin = parseInt(prompt("choisi un chiffre entre 50 et 100")) } wh
 var numberlogin = 0;
 while(numberlogin <=50 || numberlogin >= 100  ) {
     numberlogin = parseInt(prompt("choisi un chiffre entre 50 et 100"))
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+} 
