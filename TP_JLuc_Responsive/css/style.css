@@ -51,7 +51,7 @@ h2, h3, h4, h5, h6{
     width: 25%;
     justify-content: center;
     align-items: center;
-    margin-top: -9em;
+    margin-top: -2em;
 }
 #banderouge > div:nth-child(3){
     display: flex;
@@ -80,6 +80,8 @@ h2, h3, h4, h5, h6{
 #banderouge > div:nth-child(2) img{
     max-width: 70%;
     object-fit: contain;
+    min-width: 125px;
+    min-height: 125px;
     width: 70%;
 }
 
@@ -90,6 +92,15 @@ h2, h3, h4, h5, h6{
 /*mediaqueries*/
 
 @media screen and (max-width: 575.98px){
+    html{
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 767.98px){
+    html{
+        font-size: 10px;
+    }
     .greyblock{
         display: none;
     }
@@ -99,24 +110,24 @@ h2, h3, h4, h5, h6{
     }
     #banderouge{
         flex-direction: column;
+        align-items: center;
     }
 
     #banderouge > div:nth-child(2){
-        margin-top: 0;
+
     }
 
     #banderouge > div{
         width: 100%;
     }
+    #banderouge > div:nth-child(2) img{
+        max-width: none;
+        width: 40%;
+        height: auto;
+    }
 
     .empty{
         display: none;
-    }
-}
-
-@media screen and (max-width: 767.98px){
-    html{
-        font-size: 10px;
     }
 }
 
