@@ -30,11 +30,11 @@ section:first-of-type div.title{
 }
 
 /* form */
-.globform{
+#globform{
     background-color: #fff;
 }
 
-.globform div:first-child{
+#globform div:first-child{
     width: 85%;
     margin: 0 auto;
     height: 480px;   
@@ -45,7 +45,7 @@ form{
     flex-direction: column;
 }
 
-input[type="text"], input[type="email"], input[type="url"]{
+input[type="text"], input[type="email"], input[type="password"]{
     height: 55px;
     border-top: none;
     border-left: none;
@@ -57,11 +57,11 @@ input[type="text"], input[type="email"], input[type="url"]{
     transition: border 0.5s;
 }
 
-input[type="text"]:focus, input[type="email"]:focus, input[type="url"]:focus{
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus{
     outline: none;
 }
 
-input[type="text"]:hover, input[type="email"]:hover, input[type="url"]:hover{
+input[type="text"]:hover, input[type="email"]:hover, input[type="password"]:hover{
     border-color: #4D4D4D;
     transition: 0.5s;
 }

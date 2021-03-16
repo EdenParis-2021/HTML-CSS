@@ -14,16 +14,16 @@
             <div><h1>Login to your account</h1></div>
         </div>
 
-        <div class="globform">
+        <div id="globform">
             <div>
-                <form action="#" method="POST">
+                <form method="POST" id="formulaire">
                     <input type="text" name="firstname" id="firstname" placeholder="First Name">
 
                     <input type="text" name="lastname" id="lastname" placeholder="Last Name">
 
                     <input type="email" name="email" id="email" placeholder="Email" required>
 
-                    <input type="url" name="website" id="website" placeholder="Website" required>
+                    <input type="password" name="passw" id="passw" placeholder="Password" required>
 
 
                    <div>
@@ -32,11 +32,13 @@
                    </div>
 
                    <div class="button">
-                        <input type="submit" value="LOGIN" name="login" id="login">
+                        <input type="submit" value="LOGIN" name="validation" id="login">
                    </div>
                 </form>
             </div>
         </div>
     </section>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
