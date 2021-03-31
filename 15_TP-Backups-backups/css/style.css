@@ -1,0 +1,244 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Baloo Chettan 2', cursive;
+    margin: 0 auto;
+}
+.main
+{
+   width:1100px;
+    margin: 0 auto;
+    font-size: 1em;
+}
+header
+{
+    background-color: #FA9100;
+    border-top: #FECB41 4px solid;
+    border-bottom: #FECB41 4px solid;
+    margin-top:80px;
+}
+#yog
+{
+    display:flex;
+    position: relative;
+    margin-top: -60px;
+}
+#yog-img
+{
+    display:block;
+    width:8%;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin:0 auto;
+    padding: 0;
+}
+nav li
+{
+    font-family: 'Comic Neue', cursive;
+    text-decoration: none;
+    padding: 20px 25px;
+    margin:1px 10px;
+    color:white;
+}
+h1
+{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Comic Neue' , cursive;
+    font-size: 2.5em;
+}
+#backupss
+{
+    margin:0 auto;
+    text-align: center;
+}
+#txt\&vid
+{
+    margin:0 auto;
+    text-align: center;
+    width:80%;
+}
+#nomercy
+{
+    margin:0 auto;
+    margin-top: 60px;
+    width:90%;
+    display: flex;
+
+}
+#mercyL
+{
+    margin:0 auto;
+    width:68%;
+    background-color: lightgray;
+    font-size: 12px;
+}
+#mercyR
+{
+    margin:0 auto;
+    width:28%;
+    background-color: #FA9100;
+    border: #FECB41 4px solid;
+    padding: 1.5em;
+}
+h2
+{
+    text-align: center;
+    font-family: 'Comic Neue' , cursive;
+    font-size: 3.5em;
+}
+span
+{
+    color:#FA9100;
+}
+span#white
+{
+    color:white;
+}
+h3
+{
+    font-family: 'Comic Neue' , cursive;
+    font-size: 1.4em;
+}
+h4
+{
+    font-family: 'Comic Neue' , cursive;
+    font-size: 1.8em;
+    width:80%;
+    margin: 0;
+    margin-block-start: 4px;
+}
+h5
+{
+    font-family: 'Comic Neue' , cursive;
+    font-size: 1.8em;
+    margin-block-end: 12px;
+    margin-block-start: 25px;
+}
+#mercyLmain
+{
+    margin:0 auto;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.fa-save
+{
+    padding-right: 4px;
+    padding-left: 4px;
+    color:#FA9100;
+}
+#mercyLleft, #mercyLright
+{
+    margin:0 auto;
+    width:48%;
+    font-size: 18px;
+    margin-block-end: 50px;
+}
+#mercyR
+{
+    text-align: left;
+    height: 62em;
+}
+#mercyR p
+{
+    margin:0 auto;
+    color:white;
+}
+.image
+{
+    width:50%;
+    border-radius: 25%;
+    overflow: hidden;
+    transition: transform 2.5s ease;
+    height: 179px;
+}
+.image:hover
+{
+    transform: rotate(360deg) scale(1.2);
+
+}
+.vid
+{
+    overflow: hidden;
+    transition: transform 2.5s ease;
+}
+.vid:hover
+{
+    transform: rotate(360deg) scale(1.2);
+}
+.imgtxt p
+{
+    width:50%;
+    margin:0 auto;
+    float:right;
+    text-align: left;
+    line-height: 30px;
+    padding-left: 1em;
+}
+.bottomtxt p
+{
+    margin:0;
+    text-align: left;
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+.bottomtxt ul
+{
+    margin: 0;
+}
+.bottomtxt li
+{
+    text-align: left;
+    padding-bottom: 10px;
+}
+.button
+{
+    float: right;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+
+}
+.button:hover
+{
+    background-color: #fff;
+    color:black;
+    border:#1C5F81 solid 1px;
+}
+.fa-heart-broken
+{
+    padding-left: 15px;
+}
+footer
+{
+    margin-block-start: 70px;
+    background-color: black;
+    height:12em;
+    text-align: center;
+    padding: 2em;
+}
+#icon
+{
+    width:14%;
+}
+footer p
+{
+    color:white;
+}
+.clear
+{
+    clear: both;
+}
