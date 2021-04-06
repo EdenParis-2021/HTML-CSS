@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/16_TP-inscription.css">
+</head>
+<body>
+
+<form method="POST" action="" enctype="">
+    <fieldset>
+        <legend>Identité</legend>
+    <label for="pseudo">Pseudo *</label>
+    <input type="text" id="pseudo" name="pseudo" required placeholder="Jean123">
+    <br>
+
+
+    <label for="mdp">Mot de passe *</label>
+    <input type="password" id="mdp" name="mdp" required placeholder="*********">
+
+    <br>
+
+    <label for="email">Email </label>
+
+    <input type="email" id="email" name="email" placeholder="jean@sfr.fr">
+    <br>
+
+    <label for="ville">Ville</label>
+    <input type="text" id="ville" name="ville" list="france">
+    <datalist id="france">
+
+        <option>Paris</option>
+        <option>Lyon</option>
+        <option>Marseille</option>
+        <option>Daniel City</option>
+    </datalist>
+    <br>
+
+    <label for="cp">Code postal</label>
+    <input type="text" id="id" name="id" maxlength="5" pattern="[0-9]{5}">
+    <br>
+
+    <label for="file">Photo</label>
+    <input type="file" id="file" name="file">
+    <br>
+    </fieldset>
+    <fieldset>
+        <legend>Questions</legend>
+    <label for="choix">Quelle destination choississez-vous ?</label>
+    <p>
+        <input type="checkbox" name="choix" checked>Chine
+        <input type="checkbox" name="choix">Australie
+        <input type="checkbox" name="choix">Mars
+    </p>
+
+    <br>
+
+    <label for="adress">Commentaire</label>
+    <textarea id="adress" name="adress" rows="10" cols="25" value="hello" placeholder="texte..."></textarea>
+    <br>
+    </fieldset>
+    <input type="checkbox" name="choix" id="condi" required> <label for="condi">J'accepte les conditions du site. *</label>
+    <br>
+    <input type="submit" name="inscription" value="S'inscrire">
+    <input type="reset" name="efface" value="Recommencer">
+    <br>
+
+
+
+</form>
+</body>
+</html>
