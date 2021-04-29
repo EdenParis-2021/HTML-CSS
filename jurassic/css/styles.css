@@ -1,0 +1,244 @@
+body{
+    font-family: 'Montserrat', sans-serif;  
+    margin: 0;
+}
+header{
+    background: url(../img/dinosaure.jpg) no-repeat fixed; 
+    height: 63em;
+    background-size: 100%; 
+}
+nav{
+    background-color: rgba(36, 42, 41, 0.75);
+    height: 4.5em; 
+    padding: 19px;
+    width: 100%; 
+    position: fixed;
+    z-index: 5;
+}
+ul{
+    width: 75%;
+    margin: 0 auto;
+    color: white;
+    display: flex;  
+    justify-content: space-around;
+}
+#imglogo1{
+    margin-top: 10em;
+    width: 35%;
+}
+#coté{
+    position: relative;
+    left: 97.5em;
+    bottom: 8em;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav span{
+    opacity: 50%;
+}
+.fa-ticket-alt{
+    transform: rotate(135deg);
+    margin-right: 5px;
+}
+li:last-of-type{
+    background-color: #1C5F81;
+    height: 1.75em;
+    display: flex;
+    align-items: center;
+    padding: 2px 21px;
+}
+li:hover{
+    border-top: white solid 1px;
+}
+#imglogo{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+}
+li:focus-within{
+    border: green solid 1px;
+}
+h6 span{
+    display: block;
+}
+.part1 h6{
+    font-size: 50px;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+li{
+    list-style: none;
+}
+h1{
+   font-weight: bold;
+   text-align: center;
+}
+figure{
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 50em;
+    margin: auto;
+    text-align: center;
+}
+figcaption:hover{
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+#imgflex{
+    display: flex;
+    justify-content: center;
+}
+.entre:hover{
+    transform: matrix(0.87,-0.5,0,0.87,0,1);
+}
+.part1{
+    display: flex;
+    flex-direction: column;
+}
+.a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.réser{
+    color: white;
+    text-decoration: none;
+    background-color: #1C5F81;
+    padding: 18px;
+    box-sizing: border-box;
+    width: 7.5em;
+    font-weight: 100;
+}
+.firstpart{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    width: 25%;
+}
+h5{
+    margin: 0;
+    font-weight: 900;
+}
+h4{
+    display: inline-block;
+}
+h6{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.twopart{
+    float: left;
+    width: 25%;
+    margin-right: 17em;
+}
+footer h5{
+    color: white;
+    padding-left: 30em;
+    position: relative;
+    margin: 5px;
+    top: 18em;
+}
+.lastpart{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5em;
+}
+.lastpart img{
+    width: 2%;
+}
+footer img{
+    width: 20%;
+    position: relative;
+    left: 75em;
+}
+.part2{
+    display: flex;
+    justify-content: space-around;
+}
+#jdd{
+    width: 6%;
+}
+#tf1{
+    width: 7%;
+}
+
+#bfm{
+    width: 3%;
+}
+#rtl{
+    width: 4%;
+}
+.part1 p{
+    width: 40%;
+    margin: auto;
+    margin-top: 30px;
+}
+.bold{
+    font-weight: bold;
+}
+h2{
+    font-size: 25px;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+.part1 span:not(.italic-p){
+    font-weight: 600;
+}
+.italic-p{
+    font-style: italic;
+}
+footer{
+    width: 100%;
+    background-color: black;
+    height: 27em;
+}
+.tarif{
+    display: inline-block;
+    font-size: 30px;
+}
+h5 span{
+    font-weight: 100;
+}
+.ligne{
+    color: white;
+    text-decoration: none;
+    background-color: #1C5F81;
+    padding: 18px;
+    box-sizing: border-box;
+    width: 13em;    
+    font-weight: 100;
+}
+h5:last-of-type{
+    margin-bottom: 3em;
+}
+.a2{
+    text-decoration: none;
+}
+h5 img{
+    width: 5%;
+    display: inline-block;
+}
+hr{
+    width: 29em;
+}
+.clear{
+    clear: both;
+}

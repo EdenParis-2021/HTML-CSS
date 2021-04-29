@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+h2{
+    color: white;
+}
+h1 + img{
+    display: block;
+    margin: 0 auto;
+}
+header img{
+    width: 30%;
+}
+h2{
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+main img{
+    width: 15em;
+}
+main{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sélecteurs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <a href="https://www.google.fr" id="google" class="googleClass">Accéder à google</a>
+    <section id="section1">Sélection par l'id</section>
+    <section id="section2">Sélection par getElementById</section>
+    <hr>
+    <span>sélection par getElementsByTagName</span>
+    <div class="lesDiv">div0 sélectionné par getElementsByClassName</div>
+    <div class="lesDiv">div1 sélectionné par getElementsByClassName</div>
+    <div class="lesDiv">div2 sélectionné par getElementsByClassName</div>
+    <hr>
+    <p>paragraphe 0 sélectionné par querySelector</p>
+    <p>paragraphe 1 sélectionné par querySelector</p>
+    <p>paragraphe 2 sélectionné par querySelector</p>
+    <p>paragraphe 3 sélectionné par querySelector</p>
+    <!-- exo -->
+    <article class="exo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti inventore officiis veritatis dicta vero explicabo consectetur. Ab modi, voluptatum nostrum nam enim, atque perspiciatis ducimus eius vitae eligendi cum commodi.</article>
+    <article class="exo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti inventore officiis veritatis dicta vero explicabo consectetur. Ab modi, voluptatum nostrum nam enim, atque perspiciatis ducimus eius vitae eligendi cum commodi.</article>
+    <article class="exo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti inventore officiis veritatis dicta vero explicabo consectetur. Ab modi, voluptatum nostrum nam enim, atque perspiciatis ducimus eius vitae eligendi cum commodi.</article>
+    <article class="exo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti inventore officiis veritatis dicta vero explicabo consectetur. Ab modi, voluptatum nostrum nam enim, atque perspiciatis ducimus eius vitae eligendi cum commodi.</article>
+    <!-- les scripts js -->
+    <script>
+        var monId1 = document.getElementById
+        ('section1');
+            monId1.onclick = function(){
+                alert(monId1.innerHTML);
+            }
+         var maBalise = document.getElementsByTagName('span');
+            maBalise[0].onclick = function() {
+                alert(maBalise[0].innerHTML);
+         }
+         var mesClasses = document.getElementsByClassName
+         ('lesDiv');
+         for(let i = 0; i < mesClasses.length; i++){
+            mesClasses[i].onclick = function() {
+                alert(this.innerHTML);
+            }
+        }
+        var p = document.querySelector('p');
+
+        var lesP = document.querySelectorAll('p');
+
+        var article1 = document.querySelectorAll('.exo');
+
+        article1[0].onclick = function() {
+            this.style.color = 'blue';
+        }
+
+        var pessiP = document.querySelectorAll('article');
+        for(let i = 0; i < pessiP.length; i++){
+            pessiP[i].onclick = function(){
+               this.style.color = 'blue';
+            }
+        }
+        
+    </script>
+</body>
+</html>

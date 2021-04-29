@@ -1,0 +1,138 @@
+p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.12rem
+}
+.back{
+   background-color: #37505c;
+   height: 60px;
+   color: #ffffff;
+   box-sizing: border-box;
+   margin: -8px;
+}
+h1{
+    font-family: 'Megrim', cursive;
+}
+.menu ul li{
+    display: inline-block;
+    margin-left: 50px;
+    text-align: center;
+}
+.back ul{
+    margin: 0;
+    display: inline-block;
+}
+nav a{
+    text-decoration: none;
+}
+.back p, .menu{
+    display: inline-block;
+}
+.title{
+    margin-left: 19px;
+    position: relative;
+    bottom: 10px;
+    float: left;
+}
+li:hover{
+    background-color: #de6449;
+}
+h2{
+    font-size: 35px;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+}
+nav ul li a {
+    color: white;
+}
+main{
+    width: 85%;
+}
+section:first-of-type{
+    width: 57%;
+    margin: 0 auto;
+    float: left;
+}
+section img{
+    width: 39%;
+    box-shadow: 5px 10px 40px 5px rgba(0,0,0,0.5);
+}
+section img + p{
+    width: 58%;
+    display: inline-block;
+    font-weight: 100;
+    margin-left: 16px;
+    position: relative;
+    bottom: 1em;
+    text-align: justify;
+    font-size: 17px;
+}
+section:first-of-type p:nth-of-type(2){
+    font-weight: 100;
+    width: 100%;
+    text-align: justify;
+    font-size: 17px;
+}
+section:first-of-type p:nth-of-type(3){
+    font-weight: 100;
+    width: 100%;
+    text-align: justify;
+    font-size: 17px;
+}
+section:first-of-type p:nth-of-type(4){
+    font-weight: 100;
+    width: 100%;
+    text-align: justify;
+    font-size: 17px;
+}
+section a:last-of-type{
+    color: rgb(235, 103, 42);
+    float: right;
+    font-family: 'Raleway', sans-serif;
+}
+.clear{
+    clear: both;
+}
+section:nth-of-type(2){
+    background-color: rgba(228, 221, 223 ,0.75);
+    float: right;
+    width: 25%;
+    margin-top: 2em;
+    position: relative;
+    left: 5em;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 100;
+}
+h3{
+    font-weight: 100;
+    font-size: x-large;
+    padding-top: 1.5em;
+    padding-left: 0.5em;
+}
+footer .foot1 p{
+    padding-left: 2em;
+    font-weight: 100;
+    font-size: medium;
+    margin: 0;
+}
+footer{
+    margin: -8px;
+    box-sizing: border-box;
+    margin-top: 5em;
+    height: 12em;
+    background-color: #37505c;
+    color: white;
+}
+footer .foot2{
+    float: right;
+    margin: 0;
+    position: relative;
+    bottom: 1.5em;
+}
+h4{
+    margin: 0;
+    font-family: 'Megrim', cursive;
+}
+h4 + p{
+    margin: 0;
+}

@@ -1,0 +1,91 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 4.5rem;
+    text-align: center;
+    color: #f6a73b;
+}
+.citron{
+    background-color: #f6a73b;
+    margin: 0 auto;
+    width : 500px;  
+    height : 500px;
+    border-radius : 50%;
+}
+#yellow, #orange, #green{
+    display: none;
+}
+@media screen and (max-width: 775px){
+    html {
+        font-size: 12px;
+
+        color: #fff;
+    }
+    h1{
+        color: forestgreen;
+    }
+    .citron{
+        background-color: forestgreen;
+        width: 250px;
+        height: 250px;
+        border-radius: 62% 23px;
+        margin: 0 auto;
+    }
+    #pamp, #yellow, #orange{
+        display: none;
+    }
+    #green{
+        display: block;
+    }
+}
+@media screen and (min-width: 776px) and (max-width: 991px){
+    html {
+        font-size: 14px;
+    }
+    h1{
+        color: yellow;
+    }
+    .citron{
+        background-color: yellow;
+        width: 350px;
+        height: 350px;
+        border-radius: 62% 23px;
+        margin: 0 auto;
+    }
+    #green, #orange, #pamp{
+        display: none;
+    }
+    #yellow{
+        display: block;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    html {
+        font-size: 18px;
+    }
+    h1{
+        color: coral;
+    }
+    .citron{
+        background-color: coral;
+        width: 425px;
+        height: 425px;
+        border-radius: 50%;
+        border-top-left-radius: 180px;
+        border-bottom-right-radius: 180px;
+        margin: 0 auto;
+    }
+    #green, #yellow, #pamp{
+        display: none;
+    }
+    #orange{
+        display: block;
+    }
+}
+    /* @media (min-width:1200px) { */

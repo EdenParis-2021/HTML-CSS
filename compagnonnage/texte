@@ -1,0 +1,20 @@
+Dans le compagnonnage il existe de nombreux rites funéraires et de salutations.
+Le jour de sa réception, le compagnon se voit remettre un ou plusieurs rubans de soie appelés des couleurs. 
+L’un des principaux insignes du Compagnon  est la canne : celle de ville est courte ou celle de cérémonie est plus longue. Traditionnellement, la canne est en jonc et comprend  un grand bout ferré et un pommeau gravé au nom du compagnon.
+
+Parmi les symboles indissociables du compagnon,, il y a les outils:
+le compas qui évoque les notions de précision, de juste mesure, de pensée ou de divin.
+l’équerre  celles de droiture, de conformité à la règle, ou encore de matière.
+Le niveau symbolise l’égalité, la balance, la justice.
+Les compagnons portent des costumes noirs, des pantalons à pattes, de larges chapeaux et une sacoche.
+.header-box{
+  background-color: darkgray;
+  box-shadow: 15px -15px 2px black;
+  margin-right: 5em;
+  margin-left: 5em;
+}
+.h-title {
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+}

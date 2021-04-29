@@ -1,0 +1,140 @@
+/* @media (min-width:1200px) { */
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+body {
+    background-color: #c9ada7;
+    color: #000;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-family: 'Sirin Stencil', cursive;
+}
+h1{
+    font-size: 4.5rem;
+    text-align: center;
+    color: #f6a73b;
+}
+.fruit{
+    background-color: #f6a73b;
+    margin: 0 auto;
+    width : 500px;
+    height : 500px;
+    -moz-border-radius : 50px;
+    -webkit-border-radius : 50px;
+    border-radius : 50%;
+
+}
+#jaune, #orange, #vert{
+    display: none;
+}
+/*Styles spécifiques pour les écrans d'ordinateur */
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    html {
+        font-size: 18px;
+    }
+    h1{
+        color: coral;
+    }
+    .fruit{
+        background-color: coral;
+        width: 425px;
+        height: 425px;
+        border-radius: 50%;
+        border-top-left-radius: 180px;
+        border-bottom-right-radius: 180px;
+        margin: 0 auto;
+    }
+    #vert, #jaune, #mousse{
+        display: none;
+    }
+    #orange{
+        display: block;
+    }
+}
+
+/*Styles spécifiques pour les écrans de taille moyenne type tablette*/
+@media screen and (min-width: 776px) and (max-width: 991px){
+    html {
+        font-size: 14px;
+    }
+    body {
+        background-color: #4a4e69;
+    }
+    h1{
+        color: yellow;
+    }
+    .fruit{
+        background-color: yellow;
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        border-top-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        margin: 0 auto;
+    }
+    #vert, #orange, #mousse{
+        display: none;
+    }
+    #jaune{
+        display: block;
+    }
+}
+/*Styles spécifiques pour les écrans de téléphones mobile*/
+@media screen and (max-width: 775px){
+    html {
+        font-size: 12px;
+    }
+    body {
+        background-color: #22223b;
+        color: #fff;
+    }
+    h1{
+        color: forestgreen;
+    }
+    .fruit{
+        background-color: forestgreen;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border-bottom-left-radius: 25px;
+        border-top-right-radius: 25px;
+        margin: 0 auto;
+    }
+    #mousse, #jaune, #orange{
+        display: none;
+    }
+    #vert{
+        display: block;
+    }
+}
+@media screen and (min-width: 776px) and (max-width: 991px){
+    html {
+        font-size: 14px;
+    }
+    body {
+        background-color: #4a4e69;
+    }
+    h1{
+        color: yellow;
+    }
+    .citron{
+        background-color: yellow;
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        border-top-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        margin: 0 auto;
+    }
+    #green, #orange, #pamp{
+        display: none;
+    }
+    #yellow{
+        display: block;
+    }
+}

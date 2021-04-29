@@ -1,0 +1,26 @@
+table{
+    width: 50%;
+    border: steelblue 2px solid;
+    border-collapse: collapse;
+}
+tr td:first-of-type{
+    width: 25%;
+}
+tr th{
+    width: 25%;
+    background-color: #EFF6FF;
+    border-left: 1px dotted blue ;
+}
+.toptable{
+    background-color: #EFF6FF;
+    font-size: large;
+    border-bottom: 1px blue dotted ;
+}
+.toptable2{
+    background-color: #EFF6FF;
+    font-size: large;
+    border-bottom: 1px blue solid;
+}
+tbody td:first-of-type.toptable{
+    border-top: solid 1px blue;
+}

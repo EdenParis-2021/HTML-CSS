@@ -1,0 +1,15 @@
+#post:focus-within{
+    opacity: 40%;
+}
+.btn:any-link{
+    box-sizing: border-box;
+}
+.big:last-child{
+     display: inline-block;   
+}
+.blue:first-child{
+  transform: rotate(90deg);
+}
+#read:only-child{
+text-decoration: none;
+}

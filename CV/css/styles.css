@@ -1,0 +1,139 @@
+body{
+    font-family:'Montserrat', sans-serif;
+}
+.glbdivtop{
+    height: 170px;
+    background-color: lightgrey;
+    border-bottom: solid 1px #a39696;
+}
+#divtop{
+    width: 75%;
+    height: 200px;
+    margin: 0 auto;
+}
+#divtop section{
+    width: 50%;
+    float: left;
+    height: 130px;
+}
+h1{
+    color: #000;
+    font-size: xx-large;
+    padding-left: 72px;
+}
+nav{
+height: 70px;
+}
+.yellow{
+    background-color: yellow;
+    width: 20px;
+    height: 170px;
+    float: right;
+}
+section a{
+    color: darkcyan;
+    float: right;
+    font-weight: normal;
+}
+span{
+    color: darkcyan;
+}
+h1 + p{
+    font-size: 22px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+li{
+    list-style: none;
+}
+.li{
+    display: inline-block;
+    margin-left: 90px;
+}
+ul{
+    padding-left: 375px;
+    position: relative;
+    bottom: 55px;
+}
+#glbdiv{
+    width: 66%;
+    margin: 0 auto;
+}
+#glbdiv p:first-of-type{
+    color: darkcyan;
+    font-size: large;
+    text-align: center;
+    font-weight: bolder;
+}
+input[type="email"]{
+    border: solid 1px lightslategray;
+    width: 35%;
+    height: 25px;
+    opacity: 75%;
+}
+#EX{
+   margin: 0 auto;
+}
+input + p{
+    margin: 0 auto;
+    padding-top: 20px;
+}
+#tex{
+    border: solid 1px lightslategray;
+    opacity: 75%;
+}
+button{
+    width:60px;  
+    height: 23px;  
+    display: block;
+    background-color: #c7c7c7;
+    border:  solid 1px gray;
+}
+img{
+ float: right;
+ margin-top: 75px;
+ margin-right: 200px;
+}
+footer{
+    background-color: lightgray;
+    width: 99%;
+    height: 130px;
+    border-top: solid 1px black;
+    margin-top: 190px;
+    
+}
+footer p:first-of-type{
+    color: darkcyan;
+    text-align: center;
+    font-size: small;
+}
+h2{
+    text-align: center;
+    font-size: small;
+    font-weight: normal;
+}
+h2 + p{
+float: right;
+position: relative;
+right: 24em;
+opacity: 30%;
+}
+.yellow2{
+    background-color: yellow;
+    height: 40px;
+    width: 20px;
+    float: right;
+    margin-top: 90px;   
+    border-top: lightgray solid 1px;
+}
+.lastp{
+    margin-top: 48px;
+   padding-left: 84em;
+   opacity: 30%;
+}
+.clear{
+    clear: both;
+}  
+

@@ -1,0 +1,15 @@
+nav li{
+    display: inline-block;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+nav li:hover{ 
+background-color: salmon;
+}
+nav li:active{
+    color:gray;
+}
+nav li :focus{
+    color: cornflowerblue;
+}

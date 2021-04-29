@@ -1,0 +1,150 @@
+body{
+    font-family: 'Caveat Brush', cursive;
+    box-sizing: border-box;
+}
+.full{
+    background-image:url(../img/woddPlank.jpg);
+   height: 40em;
+}
+.p{
+    text-align: right;
+    display: inline-block;
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+}
+h1{
+   
+    display: inline-block;
+}
+.pink{
+    width: 15px;
+    border: solid #E53F6F 2px ;
+    margin-left: 19px;
+    margin-top : -15px;
+}
+.c{
+    float: right;
+}
+
+#logo div:first-of-type{
+    width: 0;
+    height: 0;
+    border-top: 250px solid #E53F6F;
+    border-left: 250px solid transparent;
+    position: relative;
+    bottom: 250px;
+    opacity: 0.7;
+}
+.clear{
+    clear: both;
+}
+.l{
+    float: right;
+}
+div#fleche{
+    top: -1vw;
+    left: -8vw;
+    width: 1em;
+    height: 3.4em;
+    border-right: 0.3em solid #d4276d;
+    border-top: 0.3em solid #d4276d;
+    transform: rotate(134deg);
+}
+.back1{
+    background-image: url(../img/pattern.jpg);
+    width: 30%;
+    height: 750px;
+    float: left;
+    margin: 0 auto;
+}
+.p1{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 250px;    
+}
+.img2{
+    float: right;
+    width: 70%;
+    height: 750px;
+}
+.img3{
+    float: left;
+    width: 70%;
+    height: 750px;
+}
+.back2{
+    background-image: url(../img/pattern.jpg);
+    width: 30%;
+    height: 750px;
+    float: right;
+    margin: 0 auto;
+}
+.eggs{
+    width: 100%;
+    height: 750px;
+    margin: 0 auto;
+}
+.back3{
+    background-image: url(../img/pattern.jpg);
+   width: 100%;
+   margin: 0 auto;
+   height:500px;
+   
+}
+#logo{
+    width: 300px;
+    margin: auto;
+    position: relative;
+    margin-top: 250px;
+    padding-bottom: 250px;
+    position: relative;
+    bottom: 150px;
+}
+.p2{
+    font-size: xx-large;
+  margin-top: 150px;
+  margin-left: 100px;
+  position: absolute;
+
+}
+.p3{
+  padding-top : 30px;
+  margin-left: 100px ;
+}
+.p4{
+    margin-left: 100px;
+}
+.mo{
+    float: right;
+    padding-right:50px;
+    color: pink;    
+}
+i{
+    padding-right: 50px;
+}
+.all{
+    color: pink;
+    font-size: x-large;
+    text-align: center;
+}
+.pink1{
+    width: 11px;
+    border: solid #E53F6F 3px ;
+  margin-left: 274px;
+    margin-top : -15px;
+}
+.pink2{
+    width: 30px;
+    border-bottom: solid #E53F6F 8px ;
+    margin-left: 120px;
+    margin-top : -15px;
+    padding-top: 200px;
+    
+}
+.bord{
+    width: 0;
+    height: 0;
+    border-top: 250px solid #E53F6F;
+    border-left: 250px solid transparent;
+}

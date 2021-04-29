@@ -1,0 +1,93 @@
+body{
+    margin: 0 auto;
+    width: 60%;
+    color: white;
+}
+p{
+    margin: 0;
+}
+.global_div{
+   text-align: center; 
+}
+.haut_1{
+    background-color: rgb(12, 20, 133);
+    width: 20%;
+    float: left;
+    height: 300px;
+}
+.haut_2{
+    background-color: rgb(53, 112, 223);
+    float: left;
+    width: 60%;
+    height: 300px;
+
+}
+.haut_3{
+    background-color: rgb(12, 20, 133);
+    width: 20%;
+    float: left;
+    height: 300px;
+}
+.menu{
+    background-color: rgb(15, 143, 143);
+    height: 50px;
+    clear: both;
+    
+}
+.zone_de_gauche{
+    background-color: rgb(9, 73, 49);
+    width: 10%;
+    height: 1200px;
+    clear: both;
+    float: left;
+}
+.A{
+    background-color: rgb(163, 154, 154);
+    height: 500px;
+    width: 45%;  
+    float: left; 
+}
+.B{
+    background-color: blue;
+    height: 500px;
+    width: 45%; 
+    float: right; 
+}
+.slide_show{
+    background-color: darkgreen;
+    width: 90%;
+    height: 500px;
+   float: left;
+    
+}
+.C{
+    background-color: rgb(201, 196, 196);
+    width: 22.5%;
+    height: 200px;
+    float: left;
+}
+.E{
+    background-color:rgb(201, 196, 196);
+    width: 22.5%;
+    height: 200px;
+    float: left;
+}
+.D{
+    background-color:blue;
+    width: 22.5%;
+    height: 200px;
+    float: left;
+}
+.F{
+    background-color:blue;
+    width: 22.5%;
+    height: 200px;
+    float: left;
+}
+.BAS{
+    background-color: rgb(11, 66, 54);
+    width: 100%;
+    text-align: center;
+    height: 65px;
+    clear: both;
+}

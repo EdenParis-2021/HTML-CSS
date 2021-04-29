@@ -1,0 +1,65 @@
+body{
+    margin: 0 auto;
+    width:  100%;
+    border:solid 1px black ;
+}
+p{
+    margin: 0;
+}
+.kid{
+    background-color: rgba(234, 238, 18, 0.822);
+    text-align: center;  
+    height: 100px;
+}
+.law{
+    background-color: burlywood;
+    height: 50px;
+    text-align: center;
+    border-bottom: yellow solid 20px;
+}
+.bur{
+    background-color: chartreuse;
+    float: left;
+    height: 300px;
+    width: 50%;
+    text-align: center;
+}
+.bar{
+    background-color: coral;
+    float: left;
+    height: 300px;
+    width: 50%;
+    text-align: center;
+}
+.bor{
+    background-color: deepskyblue;
+    float: left;
+    height: 300px;
+    width: 50%;
+    text-align: center;
+}
+.bir{
+    background-color: magenta;
+    float: left;
+    height: 300px;
+    width: 50%;
+    text-align: center;
+}
+.ber{
+    background-color: salmon;
+    text-align: center;  
+    height: 100px;
+    margin-top: 30px;
+    
+}
+.kar{
+    margin: 30px;
+}
+.louis_vignac{
+    clear: both ;
+}
+
+
+
+
+

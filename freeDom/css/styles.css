@@ -1,0 +1,49 @@
+body{
+    margin-top: 10em;
+    margin-left: 40em;
+}
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 10em;
+
+}
+.firsttd{
+    background-color: #5D5D5D;
+    color: white;
+    width: 9em;
+    border: solid 1px #D0D0D0;
+}
+td{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    width: 7em;
+}
+.white{
+    width: 9em;
+    height: 20px;
+}
+.giganttd{
+    border: solid 1px #D0D0D0;
+}
+iframe{
+    margin-top: 8em;
+}
+.giganttd1{
+    border: solid 1px #D0D0D0;
+}
+.bt:hover{
+    background-color: grey;
+    transform: scale(1.5);
+    transition: transform  1s;
+}
+.bt:hover .firsttd{
+    background-color: black;
+    transition: 1ms;
+}
+.glb{
+    float: left;
+}
+.clear{
+    clear: both;
+}

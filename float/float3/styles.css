@@ -1,0 +1,30 @@
+
+body{
+    
+    margin: 0 auto;
+    width: 50%;
+}p{
+    margin: 0 ;
+}
+
+.ban{
+    background-color: springgreen;
+text-align: center;
+width:50% ;
+height: 500px;
+float: left;
+}
+.bin{
+    background-color: violet;
+    text-align: center;
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+.clear{
+    background-color:rosybrown;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    clear: both;
+}

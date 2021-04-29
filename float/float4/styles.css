@@ -1,0 +1,33 @@
+body{
+    margin: 0 auto;
+    width: 50%;
+    border: black solid 1px;
+}
+p{
+    margin: 0 ;
+}
+.bart{
+    background-color: sandybrown;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+}
+.non{
+    background-color: sienna;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    border-bottom: rgb(224, 64, 157) 20px solid;
+}
+.dou{
+    background-color: turquoise;
+    text-align: center;
+height: 750px;
+border: solid white 10px;
+}
+.cal{
+    background-color: sandybrown;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+}

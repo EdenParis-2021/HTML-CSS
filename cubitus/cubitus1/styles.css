@@ -1,0 +1,18 @@
+.bleu,.vert{
+    height: 10em;
+    width: 10em;
+    border: 0.2em solid black;
+    margin: 0.2em;
+    border-radius: 20%;
+    text-align: center;
+    float: left;
+}
+.bleu{
+    background-color: #7a43e0;
+}
+.vert{
+  background-color:   #43e07a;
+}
+.clear{
+    clear: both;
+}

@@ -1,0 +1,23 @@
+body{
+    margin: 0 auto;
+    width: 60%;
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.glb{
+    float: left;
+}
+.card{
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+    text-decoration: underline;
+}
+.S{
+    text-align: center;
+   font-size: xx-large;
+    color: white;
+} 
