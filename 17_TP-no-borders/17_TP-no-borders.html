@@ -2,9 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>no-borders</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<form method="POST" action="">
+    <fieldset>
+        <legend>
+            LOGIN TO YOUR ACCOUNT
+        </legend>
+        <input id="name" type="text" name="first-name" placeholder="First Name">
+        <br>
 
+        <input type="text" name="last-name" placeholder="Last Name">
+        <br>
+
+        <input type="email" name="email" placeholder="Email">
+        <br>
+
+        <input id="website" type="text" name="website" placeholder="Website">
+        <br>
+
+        <fieldset id="box">
+            <input id="remember" type="checkbox" name="choix">
+            <label for="remember">Remember me</label>
+        </fieldset>
+        <br>
+
+        <input  type="submit" name="inscription" value="LOGIN">
+    </fieldset>
+</form>
 </body>
 </html>
