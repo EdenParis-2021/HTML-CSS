@@ -1,0 +1,109 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+header{
+    background-image: url(../img/images.png);
+    background-size: 40px;
+    display: flex;
+}
+#logoW3C{
+    width: 24%;
+    display: flex;
+    justify-content: flex-end;
+}
+header img:first-of-type{
+    height: 8em;
+    width: 55%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+li i{
+    color: #98DDDD;
+    padding-left: 5px;
+}
+.phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFE600;
+    width: 2em;
+    height: 2em;
+}
+.bigphone{
+    display: flex;
+    align-items: center;
+    width: 33%;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+li{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+ul a{
+    color: black;
+    text-decoration: none;
+}
+.num{
+    margin: 0;
+    padding-left: 0.5em;
+}
+.num2{
+    margin: 0;
+    padding-left: 0.5em;
+    font-weight: 600;
+}
+#imgt{
+    transform: scaleX(-1);
+    width: 40%;
+    height: 30rem;
+    position: relative;
+    bottom: 30em;
+    left: 7.5%;
+}
+.back p:first-of-type{
+    padding-top: 4em;
+}
+.bigArrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFE600;
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    float: right;
+    position: relative;
+    bottom: 2em;
+    margin-right: 2em;
+}
+.back p{
+    margin: 0 auto;
+    color: white;
+    font-size: 50px;
+    padding-left: 2em;
+    font-weight: bold;
+}
+h5{
+    color: white;
+    padding-left: 6.75em;
+    font-size: 15px;
+    font-weight: 100;
+}
+.back{
+    background-color:rgba(17, 16, 80, 0.75);
+    height: 30rem;
+    width: 40%;
+    position: relative;
+    z-index: 1;
+    left: 7.5%;
+}
