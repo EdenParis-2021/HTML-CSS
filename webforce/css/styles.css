@@ -79,9 +79,6 @@ main section:first-of-type{
     width: 80%;
     justify-content: space-between;
 }
-.back p:first-of-type{
-    padding-top: 4em;
-}
 .bigArrow{
     display: flex;
     justify-content: center;
@@ -90,22 +87,22 @@ main section:first-of-type{
     width: 2.5em;
     height: 2.5em;
     border-radius: 50%;
-    float: right;
-    position: relative;
-    bottom: 2em;
-    margin-right: 2em;
 }
 .back p{
-    margin: 0 auto;
     color: white;
     font-size: 50px;
-    padding-left: 3em;
     font-weight: bold;
+    margin: 0;
+}
+.yes{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 h5{
     color: white;
-    padding-left: 10em;
-    margin-top: 10px;
     font-size: 15px;
     font-weight: 100;
 }
@@ -122,19 +119,16 @@ h5{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 9.5em;
     border-bottom: #807600 7.5px solid;
 }
 .right{
     width: 30%;
-    margin-left: 1em;
-    margin: 0 auto;
 }
 .back{
-    background-color:rgba(17, 16, 80, 0.75);
     height: 36em;
     width: 53%;
     position: relative;
+    display: flex;
     z-index: 1;
 }
 .logo{
@@ -187,24 +181,65 @@ hr{
 #share{
     transform: rotate(270deg);
     margin: 0;
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 600;
 }
-
+section .condition p:first-of-type{
+    text-align: center;
+}
 .clear{
     clear: both;
 }
-
 .maj{
     margin-top: 5em;
 }
 #icon{
     display: flex;
+    justify-content: space-evenly;
+    width: 75%;
     margin: 0 auto;
-    width: 30%;
 }
-#icon img{
-    width: 25%;
+#below p{
+    margin-top: 5px;
+    width: 10%;
+}
+#below{
+    text-align: center;
+    font-size: 12px;
+    width: 75%;
+    margin: 0 auto;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+}
+#icon .fullicon{
+    width: 10%;
     border-bottom: #66CCCC 3px solid;
-
+    display: flex;
+    justify-content: center;
+}
+.condition p span:first-of-type{
+    background-color: black;
+    color: white;
+    padding: 0.5em;
+    font-size: 15px;
+    border-radius: 5px;
+}
+#inback{
+    position: absolute;
+    width: 100%;
+    height: 36em;
+    display: flex;
+    background-color: rgba(17, 16, 80, 0.75);
+}
+#inback > div:first-of-type{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    padding-left: 130px;
+}
+.back img{
+    max-width: 100%;
+    transform: scaleX(-1);
 }

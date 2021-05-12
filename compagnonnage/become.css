@@ -47,7 +47,7 @@ img:not(#imglogo){
     justify-content: flex-end;
 }
 img:not(#imglogo){ 
-   box-shadow: 5px 10px 40px 5px rgba(0,0,0,0.5)
+   box-shadow: 5px 10px 40px 5px rgba(0,0,0,0.5);
 }
 
 footer{
@@ -158,7 +158,7 @@ li{
   width: 95.5%;
 }
 .box{
-  box-shadow: 5px 10px 40px 5px rgba(0,0,0,0.5)
+  box-shadow: 5px 10px 40px 5px rgba(0,0,0,0.5);
 }
 #lastpart li{
   list-style: none;
