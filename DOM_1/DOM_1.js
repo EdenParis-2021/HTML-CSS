@@ -81,7 +81,7 @@ button.onclick = function(){
         button.style.border = `${col2} ${borderS[i]} 3px`;
         console.log(i);
         button.value = col;
-    }, 5000)
+    }, 500)
 }
 function addContent(){
     var newLink = document.createElement('h1')

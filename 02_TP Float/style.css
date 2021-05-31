@@ -1,0 +1,92 @@
+body
+{   
+    width:66%;
+    margin:0 auto;
+    box-sizing: border-box;
+    border: solid 1px;
+}
+p
+{
+     margin: 0;
+}
+.haut1{
+    background-color: springgreen;
+    height:225px;
+    width:25%;
+    float: left;
+    text-align: center;
+}
+.haut2
+{
+        background-color: yellow;
+        height:225px;;
+        width:50%;
+        float: left;
+        text-align: center;
+}
+.menu
+{
+    background-color:red;
+    height:30px;;
+    width:100%;
+    float: left;
+    text-align: center;
+    
+}
+.gauche
+{
+    background-color:springgreen;
+    height:650px;;
+    width:20%;
+    float: left;
+    text-align: center;
+}
+.Agauche
+{
+    background-color:blue;
+    height:250px;;
+    width:40%;
+    float: left;
+    text-align: center;
+}
+
+.Bdroite
+{
+    background-color:yellow;
+    height:250px;;
+    width:40%;
+    float: left;
+    text-align: center;
+}
+.sideshow
+{
+    background-color:red;
+    height:250px;;
+    width:80%;
+    float: left;
+    text-align: center;
+}
+.Cgauche
+{
+    background-color:blue;
+    height:150px;;
+    width:20%;
+    float: left;
+    text-align: center;
+}
+.Dgauche
+{
+    background-color:yellow;
+    height:150px;;
+    width:20%;
+    float: left;
+    text-align: center;
+}
+.Bas
+{
+    background-color:brown;
+    height:50px;;
+    width:100%;
+    float: left;
+    text-align: center;
+}
