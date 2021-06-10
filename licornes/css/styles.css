@@ -2,37 +2,37 @@ body{
     background: url(../img/background.png);
 }
 .kaido{
-   background-color: lightseagreen;
-   height: 87px;
-   color: #ffffff; 
-}
+    background-color: lightseagreen;
+    height: 87px;
+    color: #ffffff; 
+    }
 .hu ul li{
     display: inline-block;
     padding: 31px;   
 }
 .kaido ul{
-   margin: 0;
-  display: inline-block;
+    margin: 0;
+    display: inline-block;
 }
 a{
     text-decoration: none;
 }
 .hu{
     width: 34%;
-  float: left;
-  font-family: 'Poppins', sans-serif;
+    float: left;
+    font-family: 'Poppins', sans-serif;
 }
 .kaido p, .hu{
-  display: inline-block;
+    display: inline-block;
 }
 .ga{
-width:66%;
-float: left;
-font-family: "Courgette", cursive;
-font-style: italic;
+    width:66%;
+    float: left;
+    font-family: "Courgette", cursive;
+    font-style: italic;
 }
 li:hover{
-background-color: black;
+    background-color: black;
 }
 nav  ul li a {
     color: white;
@@ -63,10 +63,10 @@ nav  ul li a {
     padding-left: 20px;
 }
 .fa-star{
-color: lightseagreen;
-font-size: x-large;
-padding-top: 30px;
-float: left;
+    color: lightseagreen;
+    font-size: x-large;
+    padding-top: 30px;
+    float: left;
 }
 .p1{
     float: left;
@@ -74,7 +74,6 @@ float: left;
     font-size: x-large;
     /* float: left; */
     font-family: "Courgette", cursive;
-    
 }
 .i{
     position: relative;
@@ -119,7 +118,7 @@ float: left;
 }
 footer p{
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif; 
     float: right;
 }
 footer{
@@ -130,9 +129,9 @@ footer{
 }
 .p5{
     font-style: italic;
-   color: lightseagreen;
-   font-family: "Courgette", cursive;
-    font-size: large
+    color: lightseagreen;
+    font-family: "Courgette", cursive;
+    font-size: large;
 }
 .glb3{
     font-family: 'Poppins', sans-serif;
@@ -142,13 +141,12 @@ footer{
 section iframe{
     float: left;
 }
-
 .bu{
- background-color: lightseagreen;
- display: block;
- margin-top: 10px;
- color: white;
- width: 12%;
- height: 40px;
- border-radius: 5px;
+    background-color: lightseagreen;
+    display: block;
+    margin-top: 10px;
+    color: white;
+    width: 12%;
+    height: 40px;
+    border-radius: 5px;
 }

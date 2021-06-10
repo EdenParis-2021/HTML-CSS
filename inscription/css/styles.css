@@ -51,22 +51,22 @@ fieldset{
     display: inline-block;
 }
 #envoi{
-background-color: #367D35;
-color: white;
-font-size: larger;
-height: 3em;
-width: 95%;
-border: 1px solid black;
-border-radius: 5px;
-margin-bottom: 1em;
+    background-color: #367D35;
+    color: white;
+    font-size: larger;
+    height: 3em;
+    width: 95%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 1em;
 }
 #annul{
-background-color:#72352E;
-color: white;
-font-size: larger;
-height: 3em;
-width: 95%;
-border: 1px solid black;
-border-radius: 5px;
-margin-bottom: 5em;
+    background-color:#72352E;
+    color: white;
+    font-size: larger;
+    height: 3em;
+    width: 95%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 5em;
 }
