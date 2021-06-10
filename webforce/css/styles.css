@@ -118,7 +118,7 @@ h5{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: #807600 7.5px solid;
+    border-bottom: 7.5px solid;
 }
 .column{
     display: flex;
@@ -263,6 +263,7 @@ section .condition p:first-of-type{
     max-width: 100%;
     transform: scaleX(-1);
 }
+<<<<<<< HEAD
 .space{
     display: flex;
     justify-content: center;
@@ -290,3 +291,40 @@ section:nth-of-type(3){
     background-color: #66CCCC;
     margin: 0;
 }
+=======
+#clock{
+    display: flex;
+    justify-content: space-between;
+    width: 66%;
+    margin:  0 auto;
+}
+h3{
+    font-size: 50px;
+    font-weight: bold; 
+    margin: 0;
+}
+#clock p{
+    text-align: justify;
+}
+#inclock{
+    display: flex;
+    flex-direction: column;
+}
+#input{
+    background-color: aqua;
+    border: 1px;
+    width: 15%;
+    padding: 1em;
+    text-align: center;
+    color: white;
+    border-bottom: rgb(15, 168, 168) 7.5px solid;
+}
+section:nth-of-type(3){
+    background-color: aqua;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+>>>>>>> 4f475d26983f51bd087e3831982fba7c2b012146
