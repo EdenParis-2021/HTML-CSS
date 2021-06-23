@@ -2,7 +2,7 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
-header{
+.header{
     background-image: url(../img/images.png);
     background-size: 40px;
     display: flex;
@@ -42,7 +42,7 @@ h4{
     align-items: center;
     width: 33%;
 }
-ul{
+nav ul{
     display: flex;
     justify-content: space-evenly;
     width: 100%;
@@ -124,7 +124,7 @@ h5{
     display: flex;
     flex-direction: column;
 }
-.column div:nth-of-type(2){
+main .column div:nth-of-type(2){
     background-color: #66CCCC;
     height: 5em;
     display: flex;
@@ -174,9 +174,12 @@ h5{
 .logo div{
     display: flex;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
     width: 3em;
     height: 3em;
+}
+.bigArrow a, .bigArrow2 a{
+    color: black;
 }
 .baks3{
     background-color: #2C7CB6;
@@ -248,7 +251,7 @@ section .condition p:first-of-type{
 #inback{
     position: absolute;
     width: 100%;
-    height: 38em;
+    height: 37em;
     display: flex;
     background-color: rgba(17, 16, 80, 0.75);
 }
@@ -263,7 +266,6 @@ section .condition p:first-of-type{
     max-width: 100%;
     transform: scaleX(-1);
 }
-<<<<<<< HEAD
 .space{
     display: flex;
     justify-content: center;
@@ -289,42 +291,210 @@ section .condition p:first-of-type{
 }
 section:nth-of-type(3){
     background-color: #66CCCC;
+    padding: 4em;
+    margin-bottom: 3em;
+}
+h6{
     margin: 0;
-}
-=======
-#clock{
-    display: flex;
-    justify-content: space-between;
-    width: 66%;
-    margin:  0 auto;
-}
-h3{
+    text-align: center;
     font-size: 50px;
-    font-weight: bold; 
+    font-weight: 500;
+}
+h6:last-of-type{
+    color: white;
+}
+.idf{
+    display: flex;
+    justify-content: space-evenly;
+}
+.map:not(.map:nth-of-type(3)){
+    opacity: 50%;
+}
+.map:not(.map:nth-of-type(3)) p:last-of-type{
+   color: white;
+}
+.map p{
     margin: 0;
 }
-#clock p{
-    text-align: justify;
+.map p:first-of-type{
+    text-align: center;
 }
-#inclock{
+.bold{
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 0;
+}
+.bold + p{
+    margin: 0;
+}
+.map{
     display: flex;
     flex-direction: column;
-}
-#input{
-    background-color: aqua;
-    border: 1px;
     width: 15%;
-    padding: 1em;
-    text-align: center;
-    color: white;
-    border-bottom: rgb(15, 168, 168) 7.5px solid;
 }
-section:nth-of-type(3){
-    background-color: aqua;
-    width: 100%;
-    margin: 0;
+.bigArrow2{
     display: flex;
     justify-content: center;
-    height: 500px;
+    align-items: center;
+    background-color: white;
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
 }
->>>>>>> 4f475d26983f51bd087e3831982fba7c2b012146
+section:nth-of-type(4){
+    width: 70%;
+    margin: 0 auto;
+}
+.ven{
+    display: flex;
+}
+.ven iframe{
+    margin-right: 2em;
+}
+.p p:first-of-type{
+    line-height: 35px;
+    font-size: 18px;
+    color: #66CCCC;
+}
+.p{
+    display: flex;
+    flex-direction: column;
+    width: 44%;
+}
+.img1, .img2, .img3, .img4{
+    background-repeat: no-repeat;
+    height: 16em;
+    background-position: center;
+}
+.img1{
+    background-image: url("../img/Affiche-formation-cyber-768x1089.jpg");
+}
+.img2{
+    background-image: url("../img/Salon_IDF.png");
+}
+.img3{
+    background-image: url("../img/Frioul.png");
+}
+.img4{
+    background-image: url("../img/symfony-13-09-18_1-768x576.jpeg");
+}
+.underpub{
+    width: 20%;
+}
+.pub{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4em;
+}
+.underpub button{
+    background-color: black;
+    border: 1px solid black;
+    margin-top: 1.5em;
+    padding: 10px;
+}
+.underpub button a{
+    color: white;
+    text-decoration: none;
+}
+section:last-of-type{
+    background-image: url(../img/images.png);
+    background-size: 40px;
+    margin: 0 auto;
+    height: 40em;
+}
+.bigp{
+    text-align: center;
+    color: #4A5766;
+    font-size: 30px;
+    padding-top: 3em;
+    font-weight: bold;
+    margin: 0;
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 11em;
+}
+.flex img{
+    width: 7em;
+    height: 6em;
+}
+footer{
+    background-color: black;
+}
+.black{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer img{
+    width: 10%;
+    padding: 16px;
+    height: 60px;
+}
+footer .column p{
+    color: white;
+    padding-top: 40px;
+    margin: 0;
+}
+footer li a{
+    color: #66CCCC;
+}
+footer li{
+    color: white;
+    line-height: 23px;
+}
+footer ul{
+    padding: 0;
+}
+.blue{
+    background-color: #66CCCC;
+    width: 20%;
+    height: 17em;
+    position: relative;
+    bottom: 4em;
+    padding: 10px;
+    text-align: center;
+}
+.blue p:last-of-type{
+    line-height: 37px;
+    font-size: 20px;
+}
+.blue p:last-of-type span{
+    background-color: white;
+    padding: 11px;
+}
+.blue p:first-of-type, .blue p:last-of-type span{
+    font-weight: bold;
+    font-size: 25px;
+}
+.blue p:first-of-type span{
+    color: white;
+}
+.blue .fa-linkedin-in, .blue .fa-twitter, .blue .fa-facebook-f{
+    background-color: black;
+    color: #66CCCC;
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    font-size: 26px;
+}
+.blue .fab{
+    line-height: 2.5;
+    margin: 5px;
+}
+.col6{
+    display: flex;
+    justify-content: space-evenly;
+}
+footer .header p{
+    margin-left: 1.5rem;
+    font-size: 12px;
+}
+.header div{
+    display: flex;
+    margin-left: 8rem;
+}

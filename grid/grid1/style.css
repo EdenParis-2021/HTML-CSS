@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.grid{
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 3px;
+    text-align: center;
+    line-height: 90px;
+    grid-auto-columns: 1fr;
+    grid-template-areas:
+    "droit cd cd cd gauche"
+    "droit c1 c1 c2 gauche"
+    "droit c3 c4 c2 gauche"
+    "droit c3 c5 c5 gauche"
+    "droit cg cg cg gauche";
+
+    width: 50%;
+    height: 100%;
+}
+.c1, .c2, .c3, .c4, .c5{
+    background-color: lawngreen;
+}
+#droit{
+    grid-area: droit;
+}
+#cd{
+    grid-area: cd;
+}
+#gauche{
+    grid-area: gauche;
+}
+.c1{
+    grid-area: c1;
+}
+.c2{
+    grid-area: c2;
+}
+.c3{
+    grid-area: c3;
+}
+.c4{
+    grid-area: c4;
+}
+.c5{
+    grid-area: c5;
+}
+#cg{
+    grid-area: cg;
+}
+#droit, #gauche{
+    background-color: purple;
+}
+#cd, #cg{
+    background-color: dimgrey;
+}

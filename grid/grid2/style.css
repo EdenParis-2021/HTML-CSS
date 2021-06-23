@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.grid2{
+    display: grid;
+    text-align: center;
+    grid-template-rows: 30px 75px 30px;
+    grid-template-columns: 1fr 1fr;
+    line-height: 30px;
+    grid-gap: 2px;
+    grid-template-areas:
+    "head head head"
+    "menu main main"
+    "foot foot foot";
+}
+.menu{
+    background-color: cyan;
+    grid-area: menu;
+}
+.head{
+    background-color: mediumblue;
+    grid-area: head;
+}
+.main{
+    background-color: saddlebrown;
+    grid-area: main;
+}
+.foot{
+    background-color: mediumblue;
+    grid-area: foot;
+}
+@media screen and (max-width: 770px){
+    .grid2{
+        grid-template-areas:
+        "menu head"
+        "main main"
+        "foot foot";
+    }
+}

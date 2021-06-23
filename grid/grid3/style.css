@@ -1,0 +1,118 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    gap: 1px 1px;
+    grid-template-areas:
+    ". . . . . div1 . . . . ."
+    ". . . div2 div2 div1 . div3 . . ."
+    ". . div4 div4 div4 div4 text div3 div5 . ."
+    ". div6 div4 div4 div4 div4 div7 div7 div5 . ."
+    ". div6 div4 div4 div4 div4 div7 div7 div8 div8 ."
+    ". . div4 div4 div4 div4 div9 div10 div10 . ."
+    ". . . div11 div12 div12 div9 div13 text2 text2 ."
+    ". . . . div12 div12 div14 div13 . . ."
+    ". . . . . . div14 . . . ."
+    ". . . . . . . . . . .";
+}
+.container div{
+    background-position: center;
+    background-size: cover;
+}
+.div1 {
+    grid-area: div1;
+    background-image: url("img/artem-beliaikin@4k-wallpaper-background-beautiful-853199.jpg");
+}
+.div2 {
+    grid-area: div2;
+    background-color: #333333;
+}
+.div3 {
+    grid-area: div3;
+    background-image: url("img/artem-beliaikin@abstract-art-artistic-2490925.jpg");
+}
+.div4 {
+    grid-area: div4;
+    background-image: url("img/ian-beckley@aerial-shot-bird-s-eye-view-canyon-2479904.jpg");
+}
+.div5 {
+    grid-area: div5;
+    background-image: url("img/eberhard-grossgasteiger@4k-wallpaper-autumn-clouds-2310641.jpg");
+}
+.div6 {
+    grid-area: div6;
+    background-image: url("img/eberhard-grossgasteiger@agriculture-cabin-clouds-2437291.jpg");
+}
+.div7 {
+    grid-area: div7;
+    background-image: url("img/eberhard-grossgasteiger@cold-daylight-desktop-wallpaper-1366919.jpg");
+}
+.div8 {
+    grid-area: div8;
+    background-image: url("img/ian-beckley@adventure-canyon-desert-2440080.jpg");
+}
+.div9 {
+    grid-area: div9;
+    background-color: #666666;
+}
+.div10 {
+    grid-area: div10;
+    background-image: url("img/eberhard-grossgasteiger@4k-wallpaper-alpine-alpine-flower-2310640.jpg");
+}
+h1 {
+    grid-area: h1;
+    font-size: 57px;
+    margin: 0;
+}
+.div11 {
+    grid-area: div11;
+    background-color: #999999;
+}
+.div12 {
+    grid-area: div12;
+    background-image: url("img/ian-beckley@beach-flora-flowers-2440025.jpg");
+}
+.div13 {
+    grid-area: div13;
+    background-image: url("img/ian-beckley@bright-dawn-evening-2440061.jpg");
+}
+.div14 {
+    grid-area: div14;
+    background-image: url("img/ian-beckley@cloudiness-clouds-countryside-2440016.jpg");
+}
+.text2 {
+    grid-area: text2;
+}
+.text{
+    grid-area: 3 / 7 / 4 / 9;
+}
+
+@media screen and (min-width: 777px) and (max-width: 1200px) {
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 3px 3px;
+        width: 80%;
+        grid-template-areas:
+        " div1 div2 div3 div4 div5 div6 div7 "
+        " div8 div9 div10 div11 div12 div13 div14 "
+        " text text . . text2 . . ";
+    }
+    .container div{
+        height: 50vh;
+    }
+    .text{
+        grid-area: text;
+    }
+
+}

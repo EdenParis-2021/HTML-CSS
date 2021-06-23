@@ -1,0 +1,44 @@
+/* #glb {
+  font-size: $fs_texte;
+}
+  h1, p, a{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  h1{
+    color: green;
+    font-style: italic;
+    font-size: $fs_texte * 3;
+  }
+    p {
+      color: blue;
+      span {
+        color: red;
+        font-size: $fs_texte + 10;
+      }
+    }
+  a{
+    color: $c_link;
+    text-decoration: none;
+    display: block;
+    font-size: $fs_texte + 10;
+    &:hover{
+      color: $c_purple;
+      text-decoration: underline;
+      cursor: help;
+    }
+  }
+ */
+header {
+  background-image: url(../img/bg.jpg);
+}
+
+p {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+/*# sourceMappingURL=css.style.css.map */
