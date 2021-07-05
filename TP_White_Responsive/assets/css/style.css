@@ -318,10 +318,19 @@ h1 > span:nth-child(5){
     padding: 13px 16px;
     border: 1px solid #cccccc;
     margin: 3px;
+    transition: 1s border ease;
 }
+
 .popular-tags a{
     text-decoration: none;
     color: #666666;
+    transition: 1s color ease;
+}
+.popular-tags li:hover{
+    border: 1px solid #000000;
+}
+.popular-tags li:hover a{
+    color: #000000;
 }
 
 /* about blog */
@@ -336,6 +345,7 @@ footer{
     display: flex;
     flex-direction: column;
     background-color: #1c1c1c;
+    padding: 30px 10px;
 }
 .foot-title > h3, .foot-title > h3 > span{
     color: #FFFFFF;
@@ -349,6 +359,7 @@ footer{
 }
 .f-post{
     display: flex;
+    margin: 10px 0;
 }
 
 .f-post figure{
@@ -374,9 +385,77 @@ footer{
     color: #9d9d9d;
     margin: 0;
 }
-
-
-
+/* about us */
+#about-us{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 35px;
+}
+#about-us > p{
+    line-height: 25px;
+}
+.socials-foot{
+    display: flex;
+}
+.social-item{
+    border: 1px solid #333333;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 6px;
+    transition: 1s border ease;
+}
+.social-item:hover i{
+    color: #FFF;
+}
+.social-item:hover{
+    border: 1px solid #FFF;
+}
+.social-item > i{
+    font-size: 25px;
+    color: #333333;
+    transition: 1s color ease;
+}
+/* contact us */
+#contact{
+    display: flex;
+    flex-direction: column;
+}
+#contact > form{
+    display: flex;
+    flex-direction: column;
+}
+.input-footer{
+    background-color: #1c1c1c;
+    border: 3px solid #333333;
+    outline: none;
+    color: #333333;
+    padding: 10px;
+    margin: 5px 0;
+    transition: 1s color ease, 1s border ease;
+    font-size: 1.1rem;
+}
+.input-footer:focus{
+    border: 3px solid #FFF;
+    color: #FFF;
+}
+.input-footer[type="text"]{
+    height: 55px;
+}
+.input-footer[type="submit"]{
+    height: 55px;
+    min-width: 200px;
+    width: 40%;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.1rem;
+}
+.input-footer[type="submit"]:hover{
+    border: 3px solid #FFF;
+    color: #FFF;
+}
 
 /* X-Small devices (portrait phones, less than 576px)
  No media query for `xs` since this is the default in Bootstrap */
@@ -387,7 +466,7 @@ footer{
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px){
     html{
         font-size: 18px;
     }
@@ -444,6 +523,25 @@ footer{
     .page-selector{
         width: 55%;
     }
+    footer{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #featured-posts, #about-us{
+        width: 50%;
+    }
+    #featured-posts{
+        padding-right: 20px;
+    }
+    #contact{
+        width: 100%;
+    }
+    .input-footer{
+        font-size: 0.9rem;
+    }
+    .input-footer[type="submit"]{
+        width: 30%;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -482,6 +580,7 @@ footer{
     .page-selector{
         width: 55%;
     }
+
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
@@ -555,6 +654,14 @@ footer{
         margin-bottom: 10px;
     }
     .popular-posts-content > p{
+        font-size: 0.8rem;
+    }
+    #featured-posts, #contact, #about-us{
+        width: calc(100%/3);
+        padding-right: 20px;
+    }
+    .input-footer[type="submit"]{
+        width: 55%;
         font-size: 0.8rem;
     }
 }

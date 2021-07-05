@@ -1,12 +1,15 @@
-let div = document.querySelector('.owl-carousel');
 
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
     autoplay:true,
-    autoplayTimeout:6000,
-    dotsEach: true,
+    touchDrag: true,
+    pullDrag: true,
+    slideTransition: 'linear',
+    autoplayTimeout:3000,
+    autoplayHoverPause:false,
+    dots: true,
     responsive:{
         0:{
             items:1
@@ -18,4 +21,8 @@ $('.owl-carousel').owlCarousel({
             items:1
         }
     }
+});
+
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel();
 });
