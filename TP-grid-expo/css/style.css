@@ -1,0 +1,170 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+h1
+{
+    color:white;
+    font-size: 4em;
+    grid-area: h1;
+}
+h2
+{
+    color:white;
+    font-size: 1.5em;
+    grid-area: h2;
+    width:75%;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 4px;
+    width:80vw;
+    height: 100vh;
+    grid-template-areas:
+    "image-plage image-feuilles image-canyon image-pine image-plains image-moutain image-stars"
+    "image-blur image-flowers image-fog image-sun image-darkgrey image-midgrey image-lightgrey"
+    "h1 h1 h1 h1 h1 h1 ."
+    "h2 h2 h2 h2 h2 h2 h2";
+}
+.image-plage {
+    grid-area: image-plage;
+    background: url("../images/artem-beliaikin@4k-wallpaper-background-beautiful-853199.jpg")center no-repeat;
+    background-size: cover  ;
+}
+.image-feuilles {
+    grid-area: image-feuilles;
+    background: url("../images/artem-beliaikin@abstract-art-artistic-2490925.jpg") center no-repeat;
+    background-size: cover  ;
+}
+.image-canyon
+{
+    grid-area: image-canyon;
+    background: url("../images/ian-beckley@aerial-shot-bird-s-eye-view-canyon-2479904.jpg") center no-repeat;
+    background-size: cover  ;
+}
+.image-pine
+{
+    grid-area: image-pine;
+    background: url("../images/eberhard-grossgasteiger@4k-wallpaper-autumn-clouds-2310641.jpg") center no-repeat;
+    background-size: cover  ;
+}
+.image-plains
+{
+    grid-area: image-plains;
+    background: url("../images/eberhard-grossgasteiger@agriculture-cabin-clouds-2437291.jpg") center no-repeat;
+    background-size: cover  ;
+}
+.image-moutain
+{
+    grid-area: image-moutain;
+    background: url("../images/eberhard-grossgasteiger@cold-daylight-desktop-wallpaper-1366919.jpg") center no-repeat;
+    background-size: cover  ;
+}
+.image-stars { grid-area: image-stars;
+    background: url("../images/ian-beckley@adventure-canyon-desert-2440080.jpg") center no-repeat;
+    background-size: cover  ;
+}
+.image-blur { grid-area: image-blur;
+    background: url("../images/eberhard-grossgasteiger@4k-wallpaper-alpine-alpine-flower-2310640.jpg") center no-repeat;
+    background-size: cover  ;
+}
+.image-flowers { grid-area: image-flowers;
+    background: url("../images/ian-beckley@beach-flora-flowers-2440025.jpg") center no-repeat;
+    background-size: cover  ;
+}
+.image-fog { grid-area: image-fog;
+    background: url("../images/ian-beckley@bright-dawn-evening-2440061.jpg") center no-repeat;
+    background-size: cover  ;
+}
+.image-sun { grid-area: image-sun;
+    background: url("../images/ian-beckley@cloudiness-clouds-countryside-2440016.jpg") center no-repeat;
+    background-size: cover  ;
+}
+.image-midgrey { grid-area: image-midgrey;
+    background:dimgrey center no-repeat;
+    background-size: cover  ;
+}
+.image-darkgrey { grid-area: image-darkgrey;
+    background:black center no-repeat;
+    background-size: cover  ;
+}
+.image-lightgrey { grid-area: image-lightgrey;
+    background: grey center no-repeat;
+    background-size: cover  ;
+}
+
+
+@media (min-width: 560px) and (max-width:960px)
+{
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        width:80vw;
+        height: 100vh;
+        grid-template-areas:
+    "image-plage image-feuilles image-canyon image-pine image-plains image-moutain image-stars"
+    "image-blur image-flowers image-fog image-sun image-darkgrey image-midgrey image-lightgrey"
+    "h1 h1 h1 h1 h2 h2 h2";
+    }
+    h2
+    {
+        width:100%;
+    }
+}
+
+@media (min-width: 961px)
+{
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-auto-rows: 1fr;
+        grid-gap: 4px;
+        grid-auto-flow: row;
+    }
+
+    .image-plage { grid-area: 1 / 5 / 3 / 6; }
+
+    .image-feuilles { grid-area: 2 / 7 / 4 / 8; }
+
+    .image-canyon { grid-area: 3 / 2 / 7 / 6; }
+
+    .image-pine { grid-area: 3 / 8 / 5 / 9; }
+
+    .image-plains { grid-area: 4 / 1 / 6 / 2; }
+
+    .image-moutain { grid-area: 4 / 6 / 6 / 8; }
+
+    .image-stars { grid-area: 5 / 8 / 6 / 10; }
+
+    .image-blur { grid-area: 6 / 7 / 7 / 9; }
+
+    .image-flowers { grid-area: 7 / 4 / 9 / 6; }
+
+    .image-fog { grid-area: 7 / 7 / 9 / 8; }
+
+    .image-sun { grid-area: 8 / 6 / 10 / 7; }
+
+    .image-midgrey { grid-area: 6 / 6 / 8 / 7; }
+
+    .image-darkgrey { grid-area: 2 / 3 / 3 / 5; background-color: darkgrey;}
+
+    .image-lightgrey { grid-area: 7 / 3 / 8 / 4; }
+
+    h1 { grid-area: 2 / 6 / 4 / 7; font-size: 3em;}
+
+    h2 { grid-area: 7 / 8 / 8 / 10;
+        width: 90%; }
+
+}

@@ -1,0 +1,46 @@
+/* hello (saffiche dans le code source */
+#box {
+  font-size: 12px;
+}
+#box h1 {
+  font-style: italic;
+  font-size: 36px;
+}
+#box .boite1 {
+  width: 200px;
+  background-color: lightpink;
+  padding: 10%;
+}
+#box .boite1 p {
+  font-family: cursive;
+}
+#box .boite1 p span {
+  font-size: 22px;
+  color: #ef2333;
+}
+#box .boite2 {
+  width: 300px;
+  background-color: lightblue;
+  padding: 10%;
+}
+#box .boite2 p {
+  font-family: cursive;
+}
+#box .boite2 p span {
+  font-size: 22px;
+  color: #ef2333;
+}
+#box a {
+  color: #006d77;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  text-align: right;
+}
+#box a:hover {
+  color: #ef233c;
+  text-decoration: underline;
+  cursor: help;
+}
+
+/*# sourceMappingURL=style.css.map */

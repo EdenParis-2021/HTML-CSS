@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Transitions - démo</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Montserrat');
+        *{
+            box-sizing: border-box;
+        }
+        /* mini reset CSS */
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed,
+        figure, figcaption, footer, header, hgroup,
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+        /* fin mini reset CSS */
+        body{
+            font-family: Montserrat, sans-serif;
+        }
+        h3{
+            text-align: center;
+            font-size: 2em;
+        }
+        main{
+            background: rgba(178,178,178,0.30);
+            width: 1000px;
+            margin: 0 auto;
+        }
+        /* Ex 1 */
+        div {
+            width: 100px;
+            height: 100px;
+            background: red;
+            -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+            transition: width 2s;
+        }
+        div:hover {
+            width: 300px;
+            /* height: 250px; */
+        }
+        /* Ex 2 */
+        div.second {
+            width: 100px;
+            height: 100px;
+            background:#65C1BE;
+            -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+            transition: width 2s, height 4s, background-color 3s;
+        }
+        div.second:hover {
+            width: 300px;
+            height: 300px;
+            background-color: coral;
+        }
+        .rotationImg{
+            text-align: center;
+        }
+        .image{
+            margin: 20px;
+            border: 5px solid #eee;
+            /*rgba sera utilisé dans ce cas pour créer une ombre à mon image*/
+            box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+            transition: 1s;
+        }
+        .image:hover{
+            transform: rotate(-7deg);
+            border: 15px solid #eee;
+        }
+        .rotation360:hover{
+            transform: rotate(-360deg);
+        }
+        /* TP menu déroulant en CSS */
+        /**************DEBUT NAV********************/
+        nav {
+            background :#2980b9;
+            height: 75px;
+            border-bottom: 8px solid #6ACAFC;
+            text-align: center;
+            padding: 15px;
+        }
+        nav a{
+            margin: 10px;
+            padding: 2px 10px;
+            border-radius: 10px 0;
+            border : 2px solid white;
+            background:  #6ACAFC;
+            color: #2C3E50;
+            text-decoration: none;
+            transition: 0.5s;
+        }
+        nav a:hover{
+            background: #A6D6C3;
+            color: white;
+        }
+        .activ{
+            background: #2C3E50;
+            color: white ;
+        }
+        /**************FIN NAV********************/
+        /*****Menu Déroulant*****/
+        #menuDeroulant{
+            height: 650px;
+        }
+        #menuDeroulant nav{
+            background: transparent;
+            border: none;
+            width: 90%;
+            margin: 0 auto;
+        }
+        #menuDeroulant nav ul li{
+            float: left;
+            list-style: none;
+            width: 20%;
+        }
+        /* TP menu déroulant en CSS */
+        /****************FIN LIEN & MENU******************/
+        /* Effet grayscale et blur */
+        /*****image grayscale & blur*****/
+        .imgEffets{
+            width: 302px;
+            height: 320px;
+            margin: 70px auto;
+        }
+        .imgEffets li{
+            list-style: none;
+            float: left;
+            width: 141px;
+            height: 150px;
+            margin: 5px;
+        }
+        .imgEffets img{
+            position: absolute;
+            z-index: 1;
+            height: 150px;
+            box-shadow: 0 0 3px black;
+            /* cubic-bezier commence par 0 et se termine par 1 puis entre nous mettrons nos valeurs*/
+            /* http://cubic-bezier.com */
+            transition: .5s cubic-bezier(.12,.52,.92,1);
+        }
+        .imgEffets li:hover img{
+            z-index: 2;
+            /* Scale = zoom */
+            transform: scale(1.5);
+            box-shadow: 0 0 10px black;
+        }
+        .imgEffets:hover li:not(:hover) img{
+            filter: grayscale(1) blur(5px);
+        }
+    </style>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main>
+    <section class="">
+        <!--
+            To create a transition effect, you must specify two things:
+               - the CSS property you want to add an effect to
+               - the duration of the effect
+         -->
+        <h3>Les transitions</h3>
+        <div></div>
+        <hr>
+        <div class="second"></div>
+        <hr>
+        <style>
+            dt{
+                height: 200px;
+            }
+            /* #level1, #level2{
+                width: 200px;
+                height: 80px;
+            } */
+            #level1{
+                background-color: coral;
+                width: 200px;
+                height: 80px;
+            }
+            #level2{
+                /* display: none; */
+                position: relative;
+                top: 80.5px;
+                width: 200px;
+                height: 0;
+                transition-timing-function: ease-in-out;
+                transition-duration: 2s;
+            }
+            #level2{
+                background-color: #65C1BE;
+            }
+            article#level1:hover article#level2{
+                /* display: inline-block; */
+                height: 80px;
+            }
+        </style>
+        <dt>
+            <article id="level1">
+                <article id="level2"></article>
+            </article>
+        </dt>
+    </section>
+    <hr>
+    <section class="rotationImg">
+        <h3>CSS la propriété 'transform'</h3>
+        <p>Appliquer une transformation en 2D ou 3D transformation à un élément</p>
+        <!-- On peut mettre un commentaire pour faire sauter la marge entre les 2 images le début du com à la suite de la premiere image et la fin du com au début de la deuxieme image -->
+        <!-- skew / incliner, pencher -->
+        <img src="img/image.jpg" class="image" alt="">
+        <img src="img/image.jpg" class="image" alt="">
+        <img src="img/image.jpg" class="rotation360 image" alt="">
+    </section>
+    <hr>
+    <section>
+        <h3>Effets de survol avec transitions et filtres CSS :<br>
+            'transition' & 'transform'
+            </h3>
+        <ul class="imgEffets">
+            <li><img src="img/survol_img1.jpg" alt=""></li>
+            <li><img src="img/survol_img2.jpg" alt=""></li>
+            <li><img src="img/survol_img3.jpg" alt=""></li>
+            <li><img src="img/survol_img4.jpg" alt=""></li>
+        </ul>
+    </section>
+    <hr>
+    <!-- TP : réaliser le menu déroulant ci-dessous à l'aide des transitions -->
+    <section id="menuDeroulant">
+        <h3>Les menus déroulants</h3>
+        <nav>
+            <ul class="niveau1">
+                <li><a href="#">Accueil</a></li>
+                <li class="sousMenu"><a href="#">Formation</a>
+                    <ul class="niveau2">
+                        <li><a href="#">Etudiants</a></li>
+                        <li><a href="#">Emploi du temps</a></li>
+                        <li><a href="#">Recherche d'emploi</a></li>
+                        <li><a href="#">Documents</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Informations</a></li>
+                <li class="sousMenu"><a href="#">Cours</a>
+                    <ul class="niveau2">
+                        <li><a href="#">Internet</a></li>
+                        <li><a href="#">HTML/CSS</a></li>
+                        <li><a href="#">CMS</a></li>
+                        <li><a href="#">Stats</a></li>
+                        <li><a href="#">Réseaux sociaux</a></li>
+                        <li><a href="#">Référencement</a></li>
+                        <li><a href="#">Marketing</a></li>
+                        <li><a href="#">Cachier des charges</a></li>
+                        <li><a href="#">Photoshop / Gimp</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Mon CV</a></li>
+            </ul>
+        </nav>
+    </section>
+    <hr>
+</main>
+</body>
+</html>

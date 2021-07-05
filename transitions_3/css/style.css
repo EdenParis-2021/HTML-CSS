@@ -1,0 +1,145 @@
+body
+{
+    margin: 0 auto;
+}
+h1, h2
+{
+text-align: center
+}
+section
+{
+    padding: 7.3vh 0;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(238,192,92,1) 100%);
+}
+
+h2
+{
+    padding-top: 2vh;
+    font-family: 'Viaoda Libre', cursive;
+}
+
+.bigger-clock
+{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    margin: 0 auto;
+    height: 60vh;
+    width:60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.big-clock
+{
+    margin: 0 auto;
+    background-image: url("../melchioravion.png");
+    border-radius: 50%;
+    height: 50vh;
+    width:50vh;
+}
+.petite-needle
+{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    width: 17vh;
+    height: 0.5vh;
+    transform-origin: 0.5% 0.5%;
+    animation:seconds 60s infinite steps(60, start) ;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+}
+.mid-needle
+{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    width: 22vh;
+    height: 0.5vh;
+    transform-origin: 0.5% 0.5%;
+    animation: minutes 3600s infinite steps(60, start);
+    position: absolute;
+    top: 52%;
+    left: 50%;
+}
+.big-needle
+{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    width: 13vh;
+    height: 0.8vh;
+    transform-origin: 0.5% 0.5%;
+    animation: hours 86400s infinite steps(60, start);
+    position: absolute;
+    top: 52.5%;
+    left: 50%;
+}
+
+
+@keyframes seconds{
+    from
+    {
+        transform: rotate(0deg);
+    }
+    to
+    {
+        transform: rotate(360deg);
+    }
+}
+@keyframes minutes{
+    from
+    {
+        transform: rotate(40deg);
+    }
+    to
+    {
+        transform: rotate(320deg);
+    }
+}
+@keyframes hours{
+    from
+    {
+        transform: rotate(180deg);
+    }
+    to
+    {
+        transform: rotate(180deg);
+    }
+}
+.hour1, .hour2, .hour3, .hour4,.hour5,.hour12
+{
+    height:0.5vh;
+    width:38vh;
+    background: transparent;
+    border-left: 6vh solid #00d4ff;
+    border-right: 6vh solid #00d4ff;
+    position: absolute;
+    top: 52.8%;
+
+}
+
+
+.hour1
+{
+    transform: rotate(240deg);
+}
+.hour2
+{
+    transform: rotate(210deg);
+}
+.hour3
+{
+    transform: rotate(360deg);
+}
+.hour4
+{
+    transform: rotate(330deg);
+}
+.hour5 {
+    transform: rotate(300deg);
+}
+.hour12
+{
+    transform: rotate(90deg);
+}

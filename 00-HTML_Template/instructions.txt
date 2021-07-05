@@ -1,0 +1,2 @@
+Si tu dois faire du css et non du scss, utilises le base.css en tant que style.css . (tu peux donc supprimer le fichier scss, et le fichier dart-sass.)
+Si tu dois utiliser du scss, tu as juste à générer un style.css grâce à un git bash here sur ton dossier, puis un "$ dart-sass/sass.bat assets/scss:assets/css --watch".

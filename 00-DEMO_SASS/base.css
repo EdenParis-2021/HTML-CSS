@@ -1,0 +1,71 @@
+/* FONT FACE */
+/* Appelle les polices de la page */
+
+
+/* VARIABLES */
+
+
+/* BASES - GLOBAL */
+
+/* Balises */
+* {
+    box-sizing: border-box;
+}
+
+*:hover {
+    transition: all .2s ease 0s;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body { /* les réglages que l'on fait sur les <p> de la page */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+a, a:hover, a:visited, a:active {
+    text-decoration: none;
+}
+
+/* Classes */
+img {
+    max-width:100%;
+}
+/*les images ne dépasseront pas la taille de leur papa ni leur propre taille */
+
+   .container {
+       max-width: 1100px; //taille toujours en pixel
+   margin: 0 auto;
+       padding : 0 15px;
+   } /* et c’est tout (pas de flex, pas de position, ni de hauteur) */
+
+.shadow{
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.clear{}
+.float{}
+.btn{
+
+}
+.btn-primary{}
+.btn-success{}
+.btn-danger{}
+
+
+
+/* HEADER */
+/* Ce qui concerne le header et la nav */
+
+
+/* MAIN *\
+/* Ce qui concerne le corps du site */
+
+
+/* FOOTER */
+/*Ce qui concerne le footer */

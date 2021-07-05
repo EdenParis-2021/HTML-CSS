@@ -1,0 +1,49 @@
+/* hello (saffiche dans le code source */
+
+// bye ( ne saffiche pas dans le code source)
+
+// VARIABLES
+@import 'partiels/variable';
+
+//MIXINS
+@mixin boite($width, $bgc){
+  width:$width;
+  background-color: $bgc;
+  padding: 10%;
+  p {
+    font-family: cursive;
+    span {
+      font-size: $fs_texte + 10;
+      color: #ef2333;
+    }
+  }
+}
+
+#box{
+  font-size: $fs_texte;
+  h1
+  {
+    font-style: italic;
+    font-size: $fs_texte * 3;
+  }
+  .boite1
+  {
+      @include boite(200px, lightpink )
+  }
+  .boite2
+  {
+    @include boite(300px, lightblue )
+  }
+  a{
+    color: $c_link;
+    text-decoration: none;
+    font-size: $fs_texte +5;
+    display:block;
+    text-align: right;
+    &:hover{
+      color: $c_red;
+      text-decoration: underline;
+      cursor: help;
+    }
+  }
+}

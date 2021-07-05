@@ -1,0 +1,101 @@
+body
+{
+    margin:0;
+}
+.wrapper2
+{
+    display: grid;
+    grid-gap: 3px;
+    text-align: center;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+}
+#droit, #gauche
+{
+    background-color: rebeccapurple;
+    grid-row: 1/6;
+}
+#gauche
+{
+    grid-column: 5/6;
+}
+#cd, #cg
+{
+    background-color: darkgreen;
+    grid-column: 2/5;
+}
+#cd
+{
+    grid-row:1/2;
+}
+.c1
+{
+    grid-column: 2/4;
+}
+.c2
+{
+    grid-row:2/4;
+    grid-column: 4/5;
+}
+.c3
+{
+    grid-row:3/5;
+}
+.c5
+{
+    grid-column: 3/5;
+}
+.c1, .c2  ,.c3 , .c4 , .c5
+{
+    background-color: lightgreen;
+}
+.wrapper3
+{
+    display: grid;
+    grid-gap: 3px;
+    text-align: center;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+#header
+{
+    background-color: deepskyblue;
+    grid-column:1/5;
+}
+#menu
+{
+    background-color: dodgerblue;
+}
+#contenu
+{
+    background-color: saddlebrown;
+    grid-column: 2/5;
+}
+#footer
+{
+    background-color: deepskyblue;
+    grid-column: 1/5;
+}
+div
+{
+    padding: 30px;
+}
+@media (max-width: 770px)
+{
+    #header
+    {
+        background-color: deepskyblue;
+        grid-column:3/5;
+    }
+    #menu
+    {
+        background-color: dodgerblue;
+        grid-column:1/3;
+        grid-row:1/2;
+    }
+    #contenu
+    {
+        background-color: saddlebrown;
+        grid-column: 1/5;
+    }
+}

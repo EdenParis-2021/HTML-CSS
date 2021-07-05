@@ -216,7 +216,7 @@ section
 {
     border-bottom: 1px solid black;
 }
-.div-part-one div:nth-child(3n)
+.div-part-one-last
 {
     width:11%;
 }
